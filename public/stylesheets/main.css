@@ -1,0 +1,15 @@
+/*global*/
+header nav{}
+header nav h1{display:none}
+header nav ul{}
+header nav ul ul{}
+
+/*nav highlighting*/
+body.home header nav ul li#nav_home a{font-weight:bold;color:red}
+body.fenders header nav ul li#nav_fenders a{font-weight:bold;color:red}
+body.load_deformation header nav ul li#nav_load_deformation a{font-weight:bold;color:red}
+body.services header nav ul li#nav_services a{font-weight:bold;color:red}
+body.press header nav ul li#nav_press a{font-weight:bold;color:red}
+body.flyer header nav ul li#nav_flyer a{font-weight:bold;color:red}
+body.catalog header nav ul li#nav_catalog a{font-weight:bold;color:red}
+body.contact header nav ul li#nav_contact a{font-weight:bold;color:red}

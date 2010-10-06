@@ -10,9 +10,9 @@
        Remove this if you use the .htaccess -->
   <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 
-  <title></title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>Viking Fender</title>
+  <meta name="description" content="marine fenders">
+  <meta name="author" content="Viking Fender">
 
   <!--  Mobile Viewport Fix
         j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
@@ -30,6 +30,7 @@
 
   <!-- CSS : implied media="all" -->
   <%= stylesheet_link_tag 'application' %>
+  <%= stylesheet_link_tag 'main' %>
 
   <!-- For the less-enabled mobile browsers like Opera Mini -->
   <%= stylesheet_link_tag "handheld", :media => "handheld" %>
@@ -43,15 +44,53 @@
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 
-<!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
+<!--[if lt IE 7 ]> <body class="ie6 <%= body_classes.join(' ') %>"> <![endif]-->
+<!--[if IE 7 ]>    <body class="ie7 <%= body_classes.join(' ') %>"> <![endif]-->
+<!--[if IE 8 ]>    <body class="ie8 <%= body_classes.join(' ') %>"> <![endif]-->
+<!--[if IE 9 ]>    <body class="ie9 <%= body_classes.join(' ') %>"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <body class="<%= body_classes.join(' ') %>"> <!--<![endif]-->
 
   <div id="container">
     <header>
-
+      <nav>
+        <h1>navigation</h1>
+        <ul>
+          <li id="nav_home"><a href="link_to home">home</a></li>
+          <li id="nav_fenders">
+            <a href="fenders.html">fenders</a>
+            <ul>
+              <li><a href="fenders.html">bow fenders</a></li>
+              <li><a href="fenders.html">side fenders</a></li>
+              <li><a href="fenders.html">stern fenders</a></li>
+              <li><a href="fenders.html">notch fenders</a></li>
+              <li><a href="fenders.html">pier fenders</a></li>
+              <li><a href="fenders.html">mounting clips</a></li>
+              <li>
+                <a href="fenders.html">softloop</a>
+                <ul>
+                  <li><a href="fenders.html">bow fenders</a></li>
+                  <li><a href="fenders.html">side fenders</a></li>
+                  <li><a href="fenders.html">stern fenders</a></li>
+                </ul>
+              </li>
+              <li><a href="fenders.html">softlite</a></li>              
+              <li><a href="fenders.html">extruded rubber</a></li>
+            </ul>
+          </li>
+          <li id="nav_load_deformation"><a href="services.html">load deformation curves</a></li>
+          <li id="nav_services">
+            <a href="services.html">services
+            <ul>
+              <li><a href="">spelter socket installation</a></li>
+              <li><a href="">foam filled fenders</a></li>
+            </ul>
+          </li>
+          <li id="nav_press"><a href="press.html">press</a></li>
+          <li id="nav_flyer"><a href="flyer.html">flyer</a></li>
+          <li id="nav_catalog"><a href="catalog.html">catalog</a></li>
+          <li id="nav_contact"><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
     </header>
     
     <div id="main">
@@ -68,7 +107,6 @@
 
   <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
   <%= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js' %>
-  
   <script>!window.jQuery && document.write('<script src="js/jquery-1.4.2.min.js"><\/script>')</script>
 
   <%= javascript_include_tag 'plugins' %>
