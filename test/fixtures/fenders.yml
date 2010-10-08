@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  fender_type: MyString
+  name: MyString
+  title: MyString
+  description: MyText
+
+two:
+  fender_type: MyString
+  name: MyString
+  title: MyString
+  description: MyText

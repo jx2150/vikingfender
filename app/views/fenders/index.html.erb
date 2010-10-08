@@ -1,0 +1,29 @@
+<h1>Listing fenders</h1>
+
+<table>
+  <tr>
+    <th>Fender type</th>
+    <th>Name</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @fenders.each do |fender| %>
+  <tr>
+    <td><%= fender.fender_type %></td>
+    <td><%= fender.name %></td>
+    <td><%= fender.title %></td>
+    <td><%= fender.description %></td>
+    <td><%= link_to 'Show', fender %></td>
+    <td><%= link_to 'Edit', edit_fender_path(fender) %></td>
+    <td><%= link_to 'Destroy', fender, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Fender', new_fender_path %>

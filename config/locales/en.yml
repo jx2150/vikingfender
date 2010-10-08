@@ -2,4 +2,22 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  viking_fender: "Viking Fender"
+  a_division_of: "A Division of Viking Marine Products, Inc."
+  slogan: "When push comes to shove have a Viking on your side."
+  home_text_1: "Viking Fender is a family-owned business founded by brothers Kurt and Guy Grimsgaard in 1982. Kurt's experience as a crew and supply boat captain showed him, first hand, the necessity of a properly fendered boat. Guy's experience with machinery and hydraulics was instrumental in designing the machines needed to prepare the raw materials for Viking's line of products."
+  home_text_2: "Through the year's our commitment to customer satisfaction and product reliability has never faltered. Today, we produce the best built, and longest-lasting products on the market. We continually research and test new applications for our present product line."
+  home_text_3: "We also seek out new products and manufacturing methods to incorporate into our line of fendering. This quest has resulted in the addition of the Softlite ionomer foam fender, a tremendous breakthrough providing many advantages over present day foam fenders."
+  home_text_4: "Viking looks forward to the future, anticipating new opportunities to manufacture products that help solve customer problems. We wish to thank all of our customers who, through the years, have believed in us and our commitment to providing fendering solutions."
+  click_to_view_in: "CLICK HERE TO VIEW THE SITE IN SPANISH"
+  kurt_and_guy: "Kurt &amp; Guy Grimsgaard"
+  address_street: "1160 State Street"
+  address_city: "Perth Amboy"
+  address_state: "NJ"
+  address_zip: "08861"
+  address_phone: "732-826-4552"
+  address_fax: "732-826-5533"
+  address_email: "vikingfender1@yahoo.com"
+  phone: "Phone"
+  fax: "Fax"
+  email: "Email"

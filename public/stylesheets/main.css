@@ -1,4 +1,5 @@
 /*global*/
+header hgroup{background:url("/images/logo.jpg") transparent no-repeat 0 0;border-bottom:1px solid #333;text-align:center;height:150px;}
 header nav{}
 header nav h1{display:none}
 header nav ul{}
@@ -6,7 +7,21 @@ header nav ul ul{}
 
 /*nav highlighting*/
 body.home header nav ul li#nav_home a{font-weight:bold;color:red}
-body.fenders header nav ul li#nav_fenders a{font-weight:bold;color:red}
+body.fenders.bow header nav ul li.fenders.bow a,
+body.fenders.side header nav ul li.fenders.side a,
+body.fenders.stern header nav ul li.fenders.stern a,
+body.fenders.softloop header nav ul li.fenders.softloop a,
+body.fenders.softloop-bow header nav ul li.fenders.softloop.bow a,
+body.fenders.softloop-side header nav ul li.fenders.softloop.side a,
+body.fenders.softloop-stern header nav ul li.fenders.softloop.stern a,
+body.fenders.notch header nav ul li.fenders.notch a,
+body.fenders.pier header nav ul li.fenders.pier a,
+body.fenders.mounting-clips header nav ul li.fenders.mounting-clips a,
+body.fenders.softlite header nav ul li.fenders.softlite a,
+body.fenders.extruded header nav ul li.fenders.extruded a,
+body.fenders.yacht header nav ul li.fenders.yacht a{
+  font-weight:bold;color:red
+}
 body.load_deformation header nav ul li#nav_load_deformation a{font-weight:bold;color:red}
 body.services header nav ul li#nav_services a{font-weight:bold;color:red}
 body.press header nav ul li#nav_press a{font-weight:bold;color:red}

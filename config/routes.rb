@@ -1,6 +1,11 @@
 Boilerplate::Application.routes.draw do |map|
+  match "fenders/:fender_type" => "fenders#list_by_type"
+  
+  resources :fenders
+  
   #get "home/index"
   root :to => "home#index"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Fender type:</b>
+  <%= @fender.fender_type %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @fender.name %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @fender.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @fender.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_fender_path(@fender) %> |
+<%= link_to 'Back', fenders_path %>

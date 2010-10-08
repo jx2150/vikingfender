@@ -52,29 +52,43 @@
 
   <div id="container">
     <header>
+      <hgroup>
+        <h1>
+          <%= t 'viking_fender' %>
+        </h1>
+        <h2><%= t 'a_division_of' %></h2>
+        <h3><%= t 'slogan' %></h3>
+      </hgroup>
       <nav>
         <h1>navigation</h1>
         <ul>
           <li id="nav_home"><a href="link_to home">home</a></li>
           <li id="nav_fenders">
-            <a href="fenders.html">fenders</a>
+            <%= link_to "fenders", fenders_path %>
             <ul>
-              <li><a href="fenders.html">bow fenders</a></li>
-              <li><a href="fenders.html">side fenders</a></li>
-              <li><a href="fenders.html">stern fenders</a></li>
-              <li><a href="fenders.html">notch fenders</a></li>
-              <li><a href="fenders.html">pier fenders</a></li>
-              <li><a href="fenders.html">mounting clips</a></li>
-              <li>
-                <a href="fenders.html">softloop</a>
+              <li class="fenders bow"><%= link_to "bow fenders", "/fenders/bow" %></li>
+              <li class="fenders side"><%= link_to "side fenders", "/fenders/side" %></li>
+              <li class="fenders stern"><%= link_to "stern fenders", "/fenders/stern" %></li>
+              <li class="fenders notch"><%= link_to "notch fenders", "/fenders/notch" %></li>
+              <li class="fenders pier"><%= link_to "pier fenders", "/fenders/pier" %></li>
+              <li class="fenders mounting-clips"><%= link_to "mounting clips", "/fenders/mounting-clips" %></li>
+              <li class="fenders softloop">
+                <%= link_to "softloop", "/fenders/softloop" %>
                 <ul>
-                  <li><a href="fenders.html">bow fenders</a></li>
-                  <li><a href="fenders.html">side fenders</a></li>
-                  <li><a href="fenders.html">stern fenders</a></li>
+                  <li class="fenders softloop bow"><%= link_to "bow fenders", "/fenders/softloop-bow" %></li>
+                  <li class="fenders softloop side"><%= link_to "side fenders", "/fenders/softloop-side" %></li>
+                  <li class="fenders softloop stern"><%= link_to "stern fenders", "/fenders/softloop-stern" %></li>
                 </ul>
               </li>
-              <li><a href="fenders.html">softlite</a></li>              
-              <li><a href="fenders.html">extruded rubber</a></li>
+              <li class="fenders softlite"><%= link_to "softlite", "/fenders/softlite" %></li>
+              <li class="fenders extruded"><%= link_to "extruded rubber", "/fenders/extruded" %></li>
+            </ul>
+          </li>
+          <li class="fenders yacht">
+            <%= link_to "yacht fenders", "/fenders/yacht" %>
+            <ul>
+              <li class="fenders yacht 1"><%= link_to "yacht fender 1", "/fenders/yacht-1" %></li>
+              <li class="fenders yacht 2"><%= link_to "yacht fender 2", "/fenders/yacht-2" %></li>
             </ul>
           </li>
           <li id="nav_load_deformation"><a href="services.html">load deformation curves</a></li>
@@ -98,7 +112,18 @@
     </div>
     
     <footer>
-
+      <section id="footer_info" itemscope itemtype="http://data-vocabulary.org/Organization">
+        <h1 itemprop="name"><span itemprop="region"><%= t 'viking_fender' %></span></h1>
+        <p itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+          <span itemprop="street-address"><%= t 'address_street' %></span><br />
+          <span itemprop="locality"><%= t 'address_city' %></span>,
+          <span itemprop="region"><%= t 'address_state' %></span> 
+          <span itemprop="postal-code"><%= t 'address_zip' %></span><br />
+          <span itemprop="tel"><%= t 'phone' %>: <%= t 'address_phone' %></span><br />
+          <span itemprop="tel"><%= t 'fax' %>: <%= t 'address_fax' %></span><br />
+          <span itemprop="email"><%= t 'email' %>: <%= t 'address_email' %></span>
+        </p>
+      </section>
     </footer>
   </div> <!--! end of #container -->
 
