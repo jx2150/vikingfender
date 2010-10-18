@@ -57,12 +57,12 @@
           <%= t 'viking_fender' %>
         </h1>
         <h2><%= t 'a_division_of' %></h2>
-        <h3><%= t 'slogan' %></h3>
+        <h3><%= t 'slogan1' %><br /><%= t 'slogan2' %><span><%= t 'slogan3'%></span><%= t 'slogan4'%></h3>
       </hgroup>
       <nav>
         <h1>navigation</h1>
         <ul>
-          <li id="nav_home"><a href="link_to home">home</a></li>
+          <li id="nav_home"><%= link_to "home", "/" %></li>
           <li id="nav_fenders">
             <%= link_to "fenders", fenders_path %>
             <ul>
@@ -93,7 +93,7 @@
           </li>
           <li id="nav_load_deformation"><a href="services.html">load deformation curves</a></li>
           <li id="nav_services">
-            <a href="services.html">services
+            <a href="services.html">services</a>
             <ul>
               <li><a href="">spelter socket installation</a></li>
               <li><a href="">foam filled fenders</a></li>
