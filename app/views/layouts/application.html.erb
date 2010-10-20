@@ -51,15 +51,8 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <body class="<%= body_classes.join(' ') %>"> <!--<![endif]-->
 
   <div id="container">
-    <header>
-      <hgroup>
-        <h1>
-          <%= t 'viking_fender' %>
-        </h1>
-        <h2><%= t 'a_division_of' %></h2>
-        <h3><%= t 'slogan1' %><br /><%= t 'slogan2' %><span><%= t 'slogan3'%></span><%= t 'slogan4'%></h3>
-      </hgroup>
-      <nav>
+    <header class="default">
+      <nav class="default">
         <h1>navigation</h1>
         <ul>
           <li id="nav_home"><%= link_to "home", "/" %></li>
@@ -82,13 +75,13 @@
               </li>
               <li class="fenders softlite"><%= link_to "softlite", "/fenders/softlite" %></li>
               <li class="fenders extruded"><%= link_to "extruded rubber", "/fenders/extruded" %></li>
-            </ul>
-          </li>
-          <li class="fenders yacht">
-            <%= link_to "yacht fenders", "/fenders/yacht" %>
-            <ul>
-              <li class="fenders yacht 1"><%= link_to "yacht fender 1", "/fenders/yacht-1" %></li>
-              <li class="fenders yacht 2"><%= link_to "yacht fender 2", "/fenders/yacht-2" %></li>
+              <li class="fenders yacht">
+               <%= link_to "yacht fenders", "/fenders/yacht" %>
+                <ul>
+                  <li class="fenders yacht 1"><%= link_to "yacht fender 1", "/fenders/yacht-1" %></li>
+                  <li class="fenders yacht 2"><%= link_to "yacht fender 2", "/fenders/yacht-2" %></li>
+                </ul>
+              </li>
             </ul>
           </li>
           <li id="nav_load_deformation"><a href="services.html">load deformation curves</a></li>
@@ -105,13 +98,20 @@
           <li id="nav_contact"><a href="contact.html">contact</a></li>
         </ul>
       </nav>
+      <hgroup>
+        <h1>
+          <%= t 'viking_fender' %>
+        </h1>
+        <h2><%= t 'a_division_of' %></h2>
+        <h3><%= t 'slogan1' %><br /><%= t 'slogan2' %> <span><%= t 'slogan3'%></span> <%= t 'slogan4'%></h3>
+      </hgroup>
     </header>
     
     <div id="main">
       <%= yield %>
     </div>
     
-    <footer>
+    <footer class="default">
       <section id="footer_info" itemscope itemtype="http://data-vocabulary.org/Organization">
         <h1 itemprop="name"><span itemprop="region"><%= t 'viking_fender' %></span></h1>
         <p itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">

@@ -22,19 +22,21 @@ footer{clear:both}
 
 /*water bg*/
 body{}
-
-header,div#main,footer{background:url("/images/dinpattern-stripe.gif") repeat scroll 0 0 transparent}
-header hgroup{margin:0 auto;padding:0 2em;width:75%;background-color:#fff;background-image:url("/images/logo_small.jpg");background-repeat:no-repeat;background-position:1em 50%;text-align:right;height:115px;}
-header h1,header h2{display:none}
-header h3{color:#AF0A0A;font-size:2.25em;font-style:normal;padding:45px 0 0;text-align:center;text-shadow:1px 1px skyblue;text-transform:uppercase;}
-header h3 span{font-size:1.5em;padding:0 0.25em;text-decoration:underline;vertical-align:text-top;}
-header nav{position:absolute;top:0;right:0}
+.default{margin:0 auto;width:970px;}
+#container{background:url("/images/dark_bg.png") repeat scroll 0 0 transparent;background:#FFFDEE}
+header{background-color:#fff;background:url(/images/bg_nautical.png) no-repeat 0 0;}
+header hgroup{}
+header h1{height:95px;width:115px;text-indent:-9999em;background-color:transparent;background-image:url("/images/logo_small.jpg");background-position:0 50%;background-repeat:no-repeat;}
+header h2{display:none}
+header h3{background:none repeat scroll 0 0 #FFFFFF;border:3px dashed tan;border-width:3px 0;color:#D12428;font-size:3.25em;font-style:normal;text-align:center;text-shadow:1px 1px skyblue;text-transform:uppercase;}
+header h3 span{/*font-size:1.5em;padding:0 0.25em;text-decoration:underline;vertical-align:text-top*/;}
+header nav{overflow:hidden;width:450px!important;}
 header nav h1{display:none}
-header nav ul{}
+header nav ul{margin:0;}
 header nav ul li{position:relative;float:left;background:skyblue;padding:5px;}
 header nav ul li:hover ul li{display:block;}
 header nav ul li ul li{display:none;float:none}
-header nav ul ul{display:none;position:absolute;right:0;top:0;}
+header nav ul ul{display:none;position:absolute;right:0;top:0;margin:0}
 
 /*nav highlighting*/
 body.home header nav ul li#nav_home a,body.fenders header nav ul li#nav_fenders a{font-weight:bold;color:red}
@@ -58,18 +60,18 @@ body.flyer header nav ul li#nav_flyer a{font-weight:bold;color:red}
 body.catalog header nav ul li#nav_catalog a{font-weight:bold;color:red}
 body.contact header nav ul li#nav_contact a{font-weight:bold;color:red}
 
-footer section#footer_info{width:75%;margin:0 auto;background:#fff;padding:0 2em;overflow:hidden;}
+footer section#footer_info{background:#fff;overflow:hidden;}
 
 /*home*/
 div#main{}
 #main section{overflow:hidden}
-section#boats{font-family:"NegotiateFree";clear:both;width:100%;height:200px;border-bottom:1px solid skyblue;border-top:1px solid skyblue;overflow:hidden;background-image:url("/images/water.png");background-repeat: no-repeat;background-position: 50% 50%;}
+section#boats{font-family:"NegotiateFree";clear:both;height:200px;border-bottom:1px solid skyblue;border-top:1px solid skyblue;overflow:hidden;background-image:url("/images/water.png");background-repeat: no-repeat;background-position: 50% 50%;}
 section#boats article{width:695px;margin:0 auto;}
 #tug,#yacht{margin:30px;width:300px;height:128px;float:left;text-align:center;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;}
 #tug h1, #yacht h1{height:100%;}
 #tug a, #yacht a{width:100%;height:1em;padding-top:130px;display:block;text-transform:uppercase;color:#000;font-weight:bold;font-size:2em}
 #tug{;background:url("/images/tug_large.png") transparent no-repeat 0 0px;}
 #yacht{margin-right:0;background:url("/images/yacht_small.png") transparent no-repeat 0 100%}
-section#home_copy{margin:0 auto;width:75%;clear:both;padding:2em;background:#fff}
+section#home_copy{clear:both;background:#fff}
 section#home_copy p{font-size:1.4em;width:20%;float:left;margin:0 1em 1.5em 0;}
 
