@@ -1,7 +1,13 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
 es:
   viking_fender: "Viking Fender"
   a_division_of: "A Division of Viking Marine Products, Inc."
-  slogan: "When push comes to shove have a Viking on your side."
+  slogan1: "When push comes to shove,"
+  slogan2: "have a"
+  slogan3: "Viking"
+  slogan4: "on your side."
   home_text_1: "El Guardabarros de viking es un founded poseído de la familia del negocio por hermanos Kurt y Tipo Grimsgaard en 1982. La experiencia de Kurt como una tripulación y capitán de barco de suministro lo mostraron, de primera mano, la necesidad de un apropiadamente barco de fendered. La experiencia del tipo con maquinaria e hidráulica era instrumental en intrigantes las máquinas necesitadas a prepara las materias primas para la línea de Viking de productos."
   home_text_2: "Por el año es nuestro compromiso a la satisfacción del cliente y la certeza del producto nunca ha vacilado. Hoy, producimos el construyó mejor, y los productos más largos que duran en el mercado. Investigamos continuamente y probamos las aplicaciones nuevas para nuestra línea de productos presente."
   home_text_3: "Buscamos también fuera métodos nuevos de productos y manufacturng a incorpora en nuestra línea de fendering. Esta búsqueda ha tenido como resultado la adición del guardabarros de espuma de ionomer de Softlite, una ruptura tremenda que proporciona muchas ventajas sobre guardabarros presentes de espuma de día."

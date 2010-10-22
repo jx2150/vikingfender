@@ -103,7 +103,7 @@
           <%= t 'viking_fender' %>
         </h1>
         <h2><%= t 'a_division_of' %></h2>
-        <h3><%= t 'slogan1' %><br /><%= t 'slogan2' %> <span><%= t 'slogan3'%></span> <%= t 'slogan4'%></h3>
+        <h3><%= t 'slogan1' %> <%= t 'slogan2' %> <span><%= t 'slogan3'%></span> <%= t 'slogan4'%></h3>
       </hgroup>
     </header>
     
@@ -115,13 +115,13 @@
       <section id="footer_info" itemscope itemtype="http://data-vocabulary.org/Organization">
         <h1 itemprop="name"><span itemprop="region"><%= t 'viking_fender' %></span></h1>
         <p itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
-          <span itemprop="street-address"><%= t 'address_street' %></span><br />
-          <span itemprop="locality"><%= t 'address_city' %></span>,
-          <span itemprop="region"><%= t 'address_state' %></span> 
-          <span itemprop="postal-code"><%= t 'address_zip' %></span><br />
-          <span itemprop="tel"><%= t 'phone' %>: <%= t 'address_phone' %></span><br />
-          <span itemprop="tel"><%= t 'fax' %>: <%= t 'address_fax' %></span><br />
-          <span itemprop="email"><%= t 'email' %>: <%= t 'address_email' %></span>
+          <span itemprop="street-address"><%= t 'address_street' %></span> |
+          <span itemprop="locality"><%= t 'address_city' %></span> |
+          <span itemprop="region"><%= t 'address_state' %></span> |
+          <span itemprop="postal-code"><%= t 'address_zip' %></span> |
+          <span itemprop="tel"><%= t 'phone' %>: <%= t 'address_phone' %></span> |
+          <span itemprop="tel"><%= t 'fax' %>: <%= t 'address_fax' %></span> |
+          <span itemprop="email"><%= t 'email' %>: <a href="mailto:<%= t 'address_email' %>"><%= t 'address_email' %></a></span>
         </p>
       </section>
     </footer>

@@ -1,9 +1,9 @@
 /*GLOBAL*/
 body{font: normal 62.5% NegotiateFree,rockwell,arial,cambria,georgia,times,serif;}
 a {color: #bc6a31;}
-a:hover, a:focus {color: #b44326;-webkit-transition: color 150ms ease-in;-moz-transition: color 150ms ease-in;-o-transition: color 150ms ease-in;transition: color 150ms ease-in;}
+a:hover, a:focus, a:visited {color: #b44326;-webkit-transition: color 150ms ease-in;-moz-transition: color 150ms ease-in;-o-transition: color 150ms ease-in;transition: color 150ms ease-in;}
 p {margin:0 0 1.5em 0}
-footer{clear:both}
+
 
 @font-face {
   font-family: 'AcknowledgementMedium';
@@ -20,26 +20,31 @@ footer{clear:both}
   font-style: normal;
 }
 
-/*water bg*/
 body{}
 .default{margin:0 auto;width:970px;}
 #container{background:url("/images/dark_bg.png") repeat scroll 0 0 transparent;background:#FFFDEE}
-header{background-color:#fff;background:url(/images/bg_nautical.png) no-repeat 0 0;}
-header hgroup{}
-header h1{height:95px;width:115px;text-indent:-9999em;background-color:transparent;background-image:url("/images/logo_small.jpg");background-position:0 50%;background-repeat:no-repeat;}
+header{background-color:#fff;background:url(/images/bg_nautical.png) no-repeat 0 0;position:relative;border-color:tan;border-style:dotted;border-width:0 0 1px;}
+header hgroup{padding:0 0 20px;}
+header h1{padding:10px;height:95px;width:115px;text-indent:-9999em;background-color:transparent;background-image:url("/images/logo_small1.png");background-position:10px 50%;background-repeat:no-repeat;}
 header h2{display:none}
-header h3{background:none repeat scroll 0 0 #FFFFFF;border:3px dashed tan;border-width:3px 0;color:#D12428;font-size:3.25em;font-style:normal;text-align:center;text-shadow:1px 1px skyblue;text-transform:uppercase;}
+header h3{background:none repeat scroll 0 0 #FFFFFF;border-color:tan;border-style:dashed;border-width:3px 0;color:#BF1722;font-size:3.1em;font-style:normal;padding:12px 0 6px;text-align:center;text-shadow:1px 1px tan;text-transform:uppercase;}
 header h3 span{/*font-size:1.5em;padding:0 0.25em;text-decoration:underline;vertical-align:text-top*/;}
-header nav{overflow:hidden;width:450px!important;}
+header nav{overflow:hidden;width:500px!important;position:absolute;top:0;right:0;}
 header nav h1{display:none}
 header nav ul{margin:0;}
-header nav ul li{position:relative;float:left;background:skyblue;padding:5px;}
+header nav ul li{background:none repeat scroll 0 0 tan;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;float:left;padding:20px 5px 10px;position:relative;text-transform:uppercase;}
+header nav ul li a{text-decoration:none;}
 header nav ul li:hover ul li{display:block;}
 header nav ul li ul li{display:none;float:none}
 header nav ul ul{display:none;position:absolute;right:0;top:0;margin:0}
+footer{clear:both;background:#F1EED8;text-align:center;color:#000;font-size:1.75em;margin:10px auto !important;}
+footer section#footer_info{overflow:hidden;padding:10px 20px;}
+footer h1{color:#BF1722;}
+footer p{margin:0;}
+
 
 /*nav highlighting*/
-body.home header nav ul li#nav_home a,body.fenders header nav ul li#nav_fenders a{font-weight:bold;color:red}
+body.home header nav ul li#nav_home a,body.fenders header nav ul li#nav_fenders a{font-weight:bold;color:#fff}
 body.fenders.bow header nav ul li.fenders.bow a,
 body.fenders.side header nav ul li.fenders.side a,
 body.fenders.stern header nav ul li.fenders.stern a,
@@ -60,18 +65,30 @@ body.flyer header nav ul li#nav_flyer a{font-weight:bold;color:red}
 body.catalog header nav ul li#nav_catalog a{font-weight:bold;color:red}
 body.contact header nav ul li#nav_contact a{font-weight:bold;color:red}
 
-footer section#footer_info{background:#fff;overflow:hidden;}
-
 /*home*/
 div#main{}
 #main section{overflow:hidden}
-section#boats{font-family:"NegotiateFree";clear:both;height:200px;border-bottom:1px solid skyblue;border-top:1px solid skyblue;overflow:hidden;background-image:url("/images/water.png");background-repeat: no-repeat;background-position: 50% 50%;}
-section#boats article{width:695px;margin:0 auto;}
-#tug,#yacht{margin:30px;width:300px;height:128px;float:left;text-align:center;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;}
+section#boats{padding:0 0 20px 0;border-color:tan;border-style:dotted;border-width:0 0 1px;/*font-family:"AcknowledgementMedium"*/;clear:both;overflow:hidden;/*background:url("/images/bg_water_fade.png") no-repeat scroll 50% 109px transparent;*//*background-image:url("/images/water.png");*/background-repeat: no-repeat;background-position: 50% 50%;}
+section#boats article{margin:0 auto;}
+#tug,#yacht{margin:30px;width:441px;height:188px;float:left;text-align:center;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;}
 #tug h1, #yacht h1{height:100%;}
-#tug a, #yacht a{width:100%;height:1em;padding-top:130px;display:block;text-transform:uppercase;color:#000;font-weight:bold;font-size:2em}
-#tug{;background:url("/images/tug_large.png") transparent no-repeat 0 0px;}
-#yacht{margin-right:0;background:url("/images/yacht_small.png") transparent no-repeat 0 100%}
-section#home_copy{clear:both;background:#fff}
-section#home_copy p{font-size:1.4em;width:20%;float:left;margin:0 1em 1.5em 0;}
+#tug a, #yacht a{width:100%;height:1em;padding-top:193px;display:block;text-transform:uppercase;color:#000;font-weight:bold;font-size:2em}
+#tug a:hover, #yacht a:hover{color:#BF1722;}
+#tug{background:url("/images/tug_new.png") transparent no-repeat 0 0px;}
+#yacht{margin:30px 0 0 0;background:url("/images/yacht_new.png") transparent no-repeat 0 100%}
+section#home_copy{clear:both;border-color:tan;border-style:dotted;border-width:0 0 1px;margin:0 auto 10px;}
+section#home_copy article{padding:20px;}
+section#home_copy div{width:49%;}
+section#home_copy .left{float:left;}
+section#home_copy .right{float:right;}
+section#home_copy p{font-size:1.4em;float:left;margin:0 1em 1em 0;}
 
+section#home_touts{}
+section#home_touts article{}
+section#home_touts article article{width:220px;height:175px;background:#ccc;margin:10px;float:left;position:relative;}
+section#home_touts article article a{color:tan;display:block;font-size:1.5em;font-weight:bold;height:100%;position:absolute;text-align:center;text-decoration:none;text-shadow:1px 1px #333333;text-transform:uppercase;width:100%;}
+section#home_touts article article a span{bottom:0;display:block;height:23px;position:absolute;width:100%;background:url(/images/bg_tout_header.png) transparent repeat 0 0;}
+section#home_touts article#catalog_tout{background:url(/images/bg_tout_catalog.png) #ccc no-repeat 50%;}
+section#home_touts article#services_tout{background:url(/images/bg_tout_services.png) #ccc no-repeat 50%;}
+section#home_touts article#load_deform_tout{background:url(/images/bg_tout_load_deform.png) #ccc no-repeat 50%;}
+section#home_touts article#contact_tout{margin-right:0;background:url(/images/bg_tout_contact.png) #ccc no-repeat 50%;}
