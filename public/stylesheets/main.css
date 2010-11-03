@@ -1,7 +1,7 @@
 /*GLOBAL*/
 body{font: normal 62.5% NegotiateFree,rockwell,arial,cambria,georgia,times,serif;}
-a {color: #bc6a31;}
-a:hover, a:focus, a:visited {color: #b44326;-webkit-transition: color 150ms ease-in;-moz-transition: color 150ms ease-in;-o-transition: color 150ms ease-in;transition: color 150ms ease-in;}
+a {color: #BF1722;}
+a:hover, a:focus, a:visited {color: #b44326;color: #BF1722;-webkit-transition: color 150ms ease-in;-moz-transition: color 150ms ease-in;-o-transition: color 150ms ease-in;transition: color 150ms ease-in;}
 p {margin:0 0 1.5em 0}
 
 
@@ -23,16 +23,17 @@ p {margin:0 0 1.5em 0}
 body{}
 .default{margin:0 auto;width:970px;}
 #container{background:url("/images/dark_bg.png") repeat scroll 0 0 transparent;background:#FFFDEE}
-header{background-color:#fff;background:url(/images/bg_nautical.png) no-repeat 0 0;position:relative;border-color:tan;border-style:dotted;border-width:0 0 1px;}
-header hgroup{padding:0 0 20px;}
-header h1{padding:10px;height:95px;width:115px;text-indent:-9999em;background-color:transparent;background-image:url("/images/logo_small1.png");background-position:10px 50%;background-repeat:no-repeat;}
+header{overflow:hidden;background-color:#fff;background:url(/images/bg_nautical.png) repeat-x 0 0;position:relative;border-color:tan;border-style:dotted;border-width:0 0 1px;}
+header hgroup{}
+header h1{padding:10px 10px 0;height:95px;width:115px;text-indent:-9999em;background-color:transparent;background-image:url("/images/logo_small1.png");background-position:10px 50%;background-repeat:no-repeat;}
 header h2{display:none}
-header h3{background:none repeat scroll 0 0 #FFFFFF;border-color:tan;border-style:dashed;border-width:3px 0;color:#BF1722;font-size:3.1em;font-style:normal;padding:12px 0 6px;text-align:center;text-shadow:1px 1px tan;text-transform:uppercase;}
 header h3 span{/*font-size:1.5em;padding:0 0.25em;text-decoration:underline;vertical-align:text-top*/;}
-header nav{overflow:hidden;width:500px!important;position:absolute;top:0;right:0;}
+header nav{margin:10px 0;overflow:hidden;background:none repeat scroll 0 0 #FFFFFF;border-color:tan;border-style:dashed;border-width:3px 0;}
+/*header nav{overflow:hidden;width:500px!important;position:absolute;top:0;right:0;}*/
+header nav a{font-weight:bold;font-size:3.1em;font-style:normal;text-align:center;text-shadow:1px 1px tan;text-transform:uppercase;}
 header nav h1{display:none}
-header nav ul{margin:0;}
-header nav ul li{background:none repeat scroll 0 0 tan;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;float:left;padding:20px 5px 10px;position:relative;text-transform:uppercase;}
+header nav ul{margin:0 auto;width:860px;}
+header nav ul li{float:left;padding:5px;position:relative;text-transform:uppercase;}
 header nav ul li a{text-decoration:none;}
 header nav ul li:hover ul li{display:block;}
 header nav ul li ul li{display:none;float:none}
@@ -66,26 +67,39 @@ body.catalog header nav ul li#nav_catalog a{font-weight:bold;color:red}
 body.contact header nav ul li#nav_contact a{font-weight:bold;color:red}
 
 /*home*/
+body.home header h1{display:none;}
 div#main{}
 #main section{overflow:hidden}
-section#boats{padding:0 0 20px 0;border-color:tan;border-style:dotted;border-width:0 0 1px;/*font-family:"AcknowledgementMedium"*/;clear:both;overflow:hidden;/*background:url("/images/bg_water_fade.png") no-repeat scroll 50% 109px transparent;*//*background-image:url("/images/water.png");*/background-repeat: no-repeat;background-position: 50% 50%;}
+section#boats{-moz-box-shadow:0 5px 25px #000000;-webkit-box-shadow:0 5px 25px #000;box-shadow:0 5px 25px #000;background-position:50% 50%;background-repeat:no-repeat;border-color:tan;border-style:dotted;border-width:0 0 0;clear:both;margin:36px auto 0;overflow:hidden;}
 section#boats article{margin:0 auto;}
+section#boats .boat_icon{background:url("/images/tug_new.png") no-repeat scroll 50% transparent;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;float:left;height:201px;margin:1px 0 0 1px;width:241px;}
+section#boats #tug_icon{background-image:url("http://www.istockphoto.com/file_thumbview_approve/3703502/2/istockphoto_3703502-tugboat.jpg")}
+section#boats #pilot_icon{background-image:url("http://farm5.static.flickr.com/4064/4659484845_acfed4169b_b.jpg")}
+section#boats #other_icon{background-image:url("http://farm5.static.flickr.com/4064/4659484845_acfed4169b_b.jpg")}
+section#boats #yacht_icon{background-image:url("http://www.istockphoto.com/file_thumbview_approve/3512984/2/istockphoto_3512984-mega-yacht-in-riau-archipelago.jpg")}
+/*
 #tug,#yacht{margin:30px;width:441px;height:188px;float:left;text-align:center;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;}
 #tug h1, #yacht h1{height:100%;}
 #tug a, #yacht a{width:100%;height:1em;padding-top:193px;display:block;text-transform:uppercase;color:#000;font-weight:bold;font-size:2em}
 #tug a:hover, #yacht a:hover{color:#BF1722;}
-#tug{background:url("/images/tug_new.png") transparent no-repeat 0 0px;}
+#tug{}
 #yacht{margin:30px 0 0 0;background:url("/images/yacht_new.png") transparent no-repeat 0 100%}
+*/
 section#home_copy{clear:both;border-color:tan;border-style:dotted;border-width:0 0 1px;margin:0 auto 10px;}
 section#home_copy article{padding:20px;}
+section#home_copy h1{margin: 0 auto;height:95px;width:115px;text-indent:-9999em;background-color:transparent;background-image:url("/images/logo_small1.png");background-position:50%;background-repeat:no-repeat;}
+section#home_copy h2{color: #BF1722;font-size:3.1em;font-style:normal;text-align:center;text-shadow:1px 1px tan;text-transform:uppercase;}
+
+/*
 section#home_copy div{width:49%;}
 section#home_copy .left{float:left;}
 section#home_copy .right{float:right;}
 section#home_copy p{font-size:1.4em;float:left;margin:0 1em 1em 0;}
+*/
 
 section#home_touts{}
-section#home_touts article{}
-section#home_touts article article{width:220px;height:175px;background:#ccc;margin:10px;float:left;position:relative;}
+section#home_touts article{margin:0 auto;width:650px;}
+section#home_touts article article{width:300px;height:300px;background:#ccc;margin:10px;float:left;position:relative;}
 section#home_touts article article a{color:tan;display:block;font-size:1.5em;font-weight:bold;height:100%;position:absolute;text-align:center;text-decoration:none;text-shadow:1px 1px #333333;text-transform:uppercase;width:100%;}
 section#home_touts article article a span{bottom:0;display:block;height:23px;position:absolute;width:100%;background:url(/images/bg_tout_header.png) transparent repeat 0 0;}
 section#home_touts article#catalog_tout{background:url(/images/bg_tout_catalog.png) #ccc no-repeat 50%;}
