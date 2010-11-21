@@ -40,7 +40,8 @@ class FendersController < ApplicationController
   # GET /fenders/new.xml
   def new
     @fender = Fender.new
-
+    5.times { @fender.assets.build }
+    
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @fender }
@@ -50,6 +51,8 @@ class FendersController < ApplicationController
   # GET /fenders/1/edit
   def edit
     @fender = Fender.find(params[:id])
+    5.times { @fender.assets.build }
+    
   end
 
   # POST /fenders

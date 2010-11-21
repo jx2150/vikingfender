@@ -1,15 +1,48 @@
 <section id="boats" class="default">
   <article>
-    <article id="tug_icon" class="boat_icon"></article>
-    <article id="pilot_icon" class="boat_icon"></article>
-    <article id="other_icon" class="boat_icon"></article>
-    <article id="yacht_icon" class="boat_icon"></article>
+    <article id="tug_icon" class="boat_icon">
+    	<h1>Tug<span>Fendering</span></h1>
+		<ul>
+			<li><%= link_to 'Bow', '/fenders/bow' %></li>
+			<li><%= link_to 'Stern', '/fenders/stern' %></li>
+			<li><%= link_to 'Side', '/fenders/side' %></li>
+			<li><%= link_to 'Molded', '/fenders/molded' %></li>
+			<li><%= link_to 'Softloop', '/fenders/softloop' %></li>
+			<li><%= link_to 'Push Knee', '/fenders/push-knee' %></li>
+			<li><%= link_to 'Load Curves', '/loadcurves' %></li>
+		</ul>
+    </article>
+    <article id="utility_icon" class="boat_icon">
+    	<h1>Utility<span>Fendering</span></h1>
+		<ul>
+			<li>Patrol Boats</li>
+			<li>Pilot Boats</li>
+			<li>Government Boats</li>
+			<li>New York State Police</li>
+			<li>See Installation Videos</li>
+		</ul>
+    </article>
+    <article id="pier_icon" class="boat_icon">
+    	<h1>Pier<span>Fendering</span></h1>
+		<ul>
+			<li><%= link_to 'Monopile', '/fenders/monopile' %></li>
+			<li><%= link_to 'Softlite Foam', '/fenders/softlite' %></li>
+		</ul>
+    </article>
+    <article id="yacht_icon" class="boat_icon">
+    	<h1>Yacht<span>Fendering</span></h1>
+		<ul>
+			<li><%= link_to 'Inflatable', '/fenders/inflatable' %></li>
+			<li><%= link_to 'Softlite', '/fenders/softlite' %></li>
+			<li><%= link_to 'Softlite Donut', '/fenders/softlite-donut' %></li>
+		</ul>
+    </article>
   </article>
 </section>
 <section id="home_copy" class="default">
   <article>
-    <h1>Viking Fender</h1>
-    <h2><%= t 'slogan1' %> <%= t 'slogan2' %> <span><%= t 'slogan3'%></span> <%= t 'slogan4'%></h2>
+	<h2>Complete marine fendering for all vessels.</h2>
+	<h2><%= t 'slogan1' %> <%= t 'slogan2' %> <span><%= t 'slogan3'%></span> <%= t 'slogan4'%></h2>
   <!--
   <div class="left">
 		<p><%= t 'home_text_1' %></p>

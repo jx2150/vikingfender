@@ -1,4 +1,4 @@
-<%= form_for(@fender) do |f| %>
+<% form_for @fender, :html => { :multipart => true } do |f| %>
   <% if @fender.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@fender.errors.count, "error") %> prohibited this fender from being saved:</h2>
@@ -27,6 +27,36 @@
     <%= f.label :description %><br />
     <%= f.text_area :description %>
   </div>
+
+	<div class="newPaperclipFiles">
+
+	        <%= f.fields_for :assets do |asset| %>
+
+	           <% if asset.object.new_record? %>
+	                 <%= asset.file_field :photo %><br />
+	           <% end %>
+
+	       <% end %>
+
+	</div>
+
+	<div class="existingPaperclipFiles">
+
+	     <% f.fields_for :assets do |asset| %>
+
+	          <% unless asset.object.new_record? %>
+
+	                <div class="thumbnail">
+	                        <%= link_to( image_tag(asset.object.photo.url(:thumb)), asset.object.photo.url(:original) ) %>
+	                        <%= asset.check_box :_destroy %>
+	                </div>
+
+	          <% end %>        
+
+	     <% end %>
+	</div>
+
+
   <div class="actions">
     <%= f.submit %>
   </div>

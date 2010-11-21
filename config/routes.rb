@@ -1,7 +1,21 @@
 Boilerplate::Application.routes.draw do |map|
-  match "fenders/:fender_type" => "fenders#list_by_type"
+  
+  match "fenders/bow" => "fenders#list_by_type", :defaults => { :fender_type => 'bow'}
+  match "fenders/side" => "fenders#list_by_type", :defaults => { :fender_type => 'side'}
+  match "fenders/stern" => "fenders#list_by_type", :defaults => { :fender_type => 'stern'}
+  match "fenders/notch" => "fenders#list_by_type", :defaults => { :fender_type => 'notch'}
+  match "fenders/pier" => "fenders#list_by_type", :defaults => { :fender_type => 'pier'}
+  match "fenders/mounting-clips" => "fenders#list_by_type", :defaults => { :fender_type => 'mounting-clips'}
+  match "fenders/softloop-bow" => "fenders#list_by_type", :defaults => { :fender_type => 'softloop-bow'}
+  match "fenders/softloop-side" => "fenders#list_by_type", :defaults => { :fender_type => 'softloop-side'}
+  match "fenders/softloop-stern" => "fenders#list_by_type", :defaults => { :fender_type => 'softloop-stern'}
+  match "fenders/softlite" => "fenders#list_by_type", :defaults => { :fender_type => 'softlite'}
+  match "fenders/extruded" => "fenders#list_by_type", :defaults => { :fender_type => 'extruded'}
+  match "fenders/yacht" => "fenders#list_by_type", :defaults => { :fender_type => 'yacht'}
   
   resources :fenders
+  
+  resources :assets
   
   #get "home/index"
   root :to => "home#index"

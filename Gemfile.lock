@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/thoughtbot/paperclip.git
+  revision: 35cdaa548d1b8439b73d5613153f9b7248bb3314
+  specs:
+    paperclip (2.3.5)
+      activerecord
+      activesupport
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -64,10 +72,13 @@ GEM
     treetop (1.4.8)
       polyglot (>= 0.3.1)
     tzinfo (0.3.23)
+    yaml_db (0.2.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  paperclip!
   rails (= 3.0.0.beta4)
   sqlite3-ruby
+  yaml_db

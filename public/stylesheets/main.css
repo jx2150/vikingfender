@@ -1,51 +1,56 @@
 /*GLOBAL*/
+/*colors
+48412a
+b4a36b
+879588
+79766e
+57724b
+3c4e59
+2d362c
+081e1b
+*/
+
 body{font: normal 62.5% NegotiateFree,rockwell,arial,cambria,georgia,times,serif;}
 a {color: #BF1722;}
-a:hover, a:focus, a:visited {color: #b44326;color: #BF1722;-webkit-transition: color 150ms ease-in;-moz-transition: color 150ms ease-in;-o-transition: color 150ms ease-in;transition: color 150ms ease-in;}
+a:hover, a:focus, a:visited {color: #BF1722;-webkit-transition: color 150ms ease-in;-moz-transition: color 150ms ease-in;-o-transition: color 150ms ease-in;transition: color 150ms ease-in;}
 p {margin:0 0 1.5em 0}
 
-
-@font-face {
-  font-family: 'AcknowledgementMedium';
-  src: url('/fonts/Acknowledgement-webfont.eot');
-  src: local('☺'), url('/fonts/Acknowledgement-webfont.woff') format('woff'), url('/fonts/Acknowledgement-webfont.ttf') format('truetype'), url('/fonts/Acknowledgement-webfont.svg#webfontLJ3wAtgv') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'NegotiateFree';
-  src: url('/fonts/negotiate_free-webfont.eot');
-  src: local('☺'), url('/fonts/negotiate_free-webfont.woff') format('woff'), url('/fonts/negotiate_free-webfont.ttf') format('truetype'), url('/fonts/negotiate_free-webfont.svg#webfontfy5xH305') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body{}
-.default{margin:0 auto;width:970px;}
-#container{background:url("/images/dark_bg.png") repeat scroll 0 0 transparent;background:#FFFDEE}
-header{overflow:hidden;background-color:#fff;background:url(/images/bg_nautical.png) repeat-x 0 0;position:relative;border-color:tan;border-style:dotted;border-width:0 0 1px;}
-header hgroup{}
-header h1{padding:10px 10px 0;height:95px;width:115px;text-indent:-9999em;background-color:transparent;background-image:url("/images/logo_small1.png");background-position:10px 50%;background-repeat:no-repeat;}
-header h2{display:none}
-header h3 span{/*font-size:1.5em;padding:0 0.25em;text-decoration:underline;vertical-align:text-top*/;}
-header nav{margin:10px 0;overflow:hidden;background:none repeat scroll 0 0 #FFFFFF;border-color:tan;border-style:dashed;border-width:3px 0;}
-/*header nav{overflow:hidden;width:500px!important;position:absolute;top:0;right:0;}*/
-header nav a{font-weight:bold;font-size:3.1em;font-style:normal;text-align:center;text-shadow:1px 1px tan;text-transform:uppercase;}
+.default{margin:0 auto;width:960px;}
+#container{background:url("/images/large_bg.png") repeat-x scroll 0 0 #1a3367}
+#inner_container{background:#F1EED8;max-width:960px;margin:-10px auto 0;}
+header{overflow:visible;position:relative;z-index:1;}
+header hgroup{margin:0 auto;max-width:960px;}
+header nav{min-height:35px;-moz-box-shadow:0 2px 5px #000000;-webkit-box-shadow:0 2px 5px #000;box-shadow:0 2px 5px #000;margin:0 0 10px 0;overflow:visible;background:url("/images/bg_nautical.png") repeat-x scroll 400px -78px transparent;border-color:tan;border-style:dotted;border-width:2px 0;}
+header nav a, header nav a:visited, header nav a:focus,header nav span{font-weight:bold;font-size:2em;font-style:normal;text-align:center;text-shadow:1px 1px tan;text-transform:uppercase;color:#143466;}
+header nav a:hover{color:#BF1722;}
 header nav h1{display:none}
-header nav ul{margin:0 auto;width:860px;}
-header nav ul li{float:left;padding:5px;position:relative;text-transform:uppercase;}
+header nav ul{margin:0 auto;width:970px;}
+header nav ul li{padding:5px 31px;position:relative;text-transform:uppercase;}
+header nav ul li.left{float:left;}
+header nav ul li.right{float:right;}
+header nav ul li#nav_home{display:none;}
 header nav ul li a{text-decoration:none;}
 header nav ul li:hover ul li{display:block;}
 header nav ul li ul li{display:none;float:none}
-header nav ul ul{display:none;position:absolute;right:0;top:0;margin:0}
-footer{clear:both;background:#F1EED8;text-align:center;color:#000;font-size:1.75em;margin:10px auto !important;}
+header nav ul ul{display:none;padding:10px 0;width:auto;position:absolute;background:#F1EED8;border:1px solid tan;width:237px;-moz-box-shadow:0 2px 5px #000000;-webkit-box-shadow:0 2px 5px #000;box-shadow:0 2px 5px #000;}
+header nav ul ul ul{position:relative;background:transparent;border:0 none;width:auto;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+header nav ul ul li a{color:#143466!important;}
+header nav ul ul li a:hover{color:#BF1722!important;}
+#nav_fenders:hover ul,#nav_fenders:hover ul li,
+#nav_services:hover ul, #nav_services:hover ul li{display:block;}
+#inner_container hgroup h1.logo{position:relative;top:-38px;z-index:2;margin:0 auto -24px;padding:10px 0 0 0;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;padding:10px 10px 0;height:132px;width:150px;text-indent:-9999em;background-color:transparent;background-image:url("/images/viking_fender_large_logo.png");background-position:50% 50%;background-repeat:no-repeat;}
+#inner_container hgroup h1.logo a{display:block;height:100%;width:100%;}
+#inner_container hgroup h2.subtext{display:none;}
+footer{clear:both;background:#F1EED8;text-align:center;color:#000;font-size:1.75em;margin:10px auto 0!important;}
 footer section#footer_info{overflow:hidden;padding:10px 20px;}
 footer h1{color:#BF1722;}
 footer p{margin:0;}
 
 
 /*nav highlighting*/
-body.home header nav ul li#nav_home a,body.fenders header nav ul li#nav_fenders a{font-weight:bold;color:#fff}
+/*rgba(245, 235, 205, 0.2)*/
+body.home header nav ul li#nav_home a,body.fenders header nav ul li#nav_fenders a{font-weight:bold;color:#BF1722}
 body.fenders.bow header nav ul li.fenders.bow a,
 body.fenders.side header nav ul li.fenders.side a,
 body.fenders.stern header nav ul li.fenders.stern a,
@@ -58,25 +63,40 @@ body.fenders.pier header nav ul li.fenders.pier a,
 body.fenders.mounting-clips header nav ul li.fenders.mounting-clips a,
 body.fenders.softlite header nav ul li.fenders.softlite a,
 body.fenders.extruded header nav ul li.fenders.extruded a,
-body.fenders.yacht header nav ul li.fenders.yacht a{font-weight:bold;color:red}
-body.load_deformation header nav ul li#nav_load_deformation a{font-weight:bold;color:red}
-body.services header nav ul li#nav_services a{font-weight:bold;color:red}
-body.press header nav ul li#nav_press a{font-weight:bold;color:red}
-body.flyer header nav ul li#nav_flyer a{font-weight:bold;color:red}
-body.catalog header nav ul li#nav_catalog a{font-weight:bold;color:red}
-body.contact header nav ul li#nav_contact a{font-weight:bold;color:red}
+body.fenders.yacht header nav ul li.fenders.yacht a{font-weight:bold;color:#BF1722}
+body.load_deformation header nav ul li#nav_load_deformation a{font-weight:bold;color:#BF1722}
+body.services header nav ul li#nav_services a{font-weight:bold;color:#BF1722}
+body.press header nav ul li#nav_press a{font-weight:bold;color:#BF1722}
+body.flyer header nav ul li#nav_flyer a{font-weight:bold;color:#BF1722}
+body.catalog header nav ul li#nav_catalog a{font-weight:bold;color:#BF1722}
+body.contact header nav ul li#nav_contact a{font-weight:bold;color:#BF1722}
 
 /*home*/
-body.home header h1{display:none;}
+body.home header h1{/*-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;margin: 0 auto;height:352px;width:400px;text-indent:-9999em;background-color:transparent;background-image:url("/images/viking_fender_large_logo.png");background-position:50%;background-repeat:no-repeat;*/}
 div#main{}
 #main section{overflow:hidden}
-section#boats{-moz-box-shadow:0 5px 25px #000000;-webkit-box-shadow:0 5px 25px #000;box-shadow:0 5px 25px #000;background-position:50% 50%;background-repeat:no-repeat;border-color:tan;border-style:dotted;border-width:0 0 0;clear:both;margin:36px auto 0;overflow:hidden;}
+section#boats{}
 section#boats article{margin:0 auto;}
-section#boats .boat_icon{background:url("/images/tug_new.png") no-repeat scroll 50% transparent;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;float:left;height:201px;margin:1px 0 0 1px;width:241px;}
-section#boats #tug_icon{background-image:url("http://www.istockphoto.com/file_thumbview_approve/3703502/2/istockphoto_3703502-tugboat.jpg")}
-section#boats #pilot_icon{background-image:url("http://farm5.static.flickr.com/4064/4659484845_acfed4169b_b.jpg")}
-section#boats #other_icon{background-image:url("http://farm5.static.flickr.com/4064/4659484845_acfed4169b_b.jpg")}
-section#boats #yacht_icon{background-image:url("http://www.istockphoto.com/file_thumbview_approve/3512984/2/istockphoto_3512984-mega-yacht-in-riau-archipelago.jpg")}
+section#boats .boat_icon{background:url("/images/tug_new.png") no-repeat scroll 0 58px transparent;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;float:left;margin:0px;width:25%;}
+body.version_2 section#boats .boat_icon{width:33%;}
+section#boats .boat_icon h1{background:none repeat scroll 0 0 #F2EED8;border-left:1px dotted tan;color:#BF1722;font-family:"Times New Roman";font-size:24px;line-height:1;font-weight:bold;padding:10px;text-shadow:1px 1px tan;text-transform:uppercase;}
+section#boats .boat_icon h1 span{font-size:12px;font-weight:normal;font-family:NegotiateFree,rockwell,arial,cambria,georgia,times,serif;color:#143466;display:block;}
+section#boats .boat_icon ul{padding:10px 10px 10px 25px;height:125px;min-height:125px;height:auto;margin:136px 0 0;background:#F1EED8;list-style-type:square;}
+body.version_2 section#boats .boat_icon ul{margin-top:181px;}
+section#boats .boat_icon ul li{font-size:13px;padding:3px 0;color:#143466;}
+section#boats #tug_icon{background:url("/images/home_icon_tug_left.jpg") no-repeat scroll 0 58px transparent;}
+body.version_2 section#boats #tug_icon{background:url("/images/home_icon_tug_left_large.jpg") no-repeat scroll 0 58px transparent;}
+/*section#boats #tug_icon ul{background:tan;}*/
+section#boats #utility_icon{background:url("/images/home_icon_utility.jpg") no-repeat scroll 0 58px transparent;}
+body.version_2 section#boats #utility_icon{background:url("/images/home_icon_utility_large.png") no-repeat scroll 0 58px transparent;}
+body.version_2 section#boats #utility_icon{display:none;}
+/*section#boats #utility_icon ul{background:moccasin;}*/
+section#boats #pier_icon{background:url("/images/home_icon_pier.jpg") no-repeat scroll 0 58px transparent;}
+body.version_2 section#boats #pier_icon{background:url("/images/home_icon_pier_large.png") no-repeat scroll 0 58px transparent;}
+/*section#boats #pier_icon ul{background:tan;}*/
+section#boats #yacht_icon{background:url("/images/home_icon_yacht.jpg") no-repeat scroll 0 58px transparent;}
+body.version_2 section#boats #yacht_icon{background:url("/images/home_icon_yacht_large.png") no-repeat scroll 0 58px transparent;}
+/*section#boats #yacht_icon ul{background:moccasin;}*/
 /*
 #tug,#yacht{margin:30px;width:441px;height:188px;float:left;text-align:center;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;}
 #tug h1, #yacht h1{height:100%;}
@@ -87,7 +107,7 @@ section#boats #yacht_icon{background-image:url("http://www.istockphoto.com/file_
 */
 section#home_copy{clear:both;border-color:tan;border-style:dotted;border-width:0 0 1px;margin:0 auto 10px;}
 section#home_copy article{padding:20px;}
-section#home_copy h1{margin: 0 auto;height:95px;width:115px;text-indent:-9999em;background-color:transparent;background-image:url("/images/logo_small1.png");background-position:50%;background-repeat:no-repeat;}
+section#home_copy h1{margin: 0 auto;height:352px;width:400px;text-indent:-9999em;background-color:transparent;background-image:url("/images/viking_fender_large_logo.png");background-position:50%;background-repeat:no-repeat;}
 section#home_copy h2{color: #BF1722;font-size:3.1em;font-style:normal;text-align:center;text-shadow:1px 1px tan;text-transform:uppercase;}
 
 /*
@@ -106,3 +126,29 @@ section#home_touts article#catalog_tout{background:url(/images/bg_tout_catalog.p
 section#home_touts article#services_tout{background:url(/images/bg_tout_services.png) #ccc no-repeat 50%;}
 section#home_touts article#load_deform_tout{background:url(/images/bg_tout_load_deform.png) #ccc no-repeat 50%;}
 section#home_touts article#contact_tout{margin-right:0;background:url(/images/bg_tout_contact.png) #ccc no-repeat 50%;}
+
+
+@font-face {
+  font-family: 'AcknowledgementMedium';
+  src: url('/fonts/Acknowledgement-webfont.eot');
+  src: local('☺'), url('/fonts/Acknowledgement-webfont.woff') format('woff'), url('/fonts/Acknowledgement-webfont.ttf') format('truetype'), url('/fonts/Acknowledgement-webfont.svg#webfontLJ3wAtgv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NegotiateFree';
+  src: url('/fonts/negotiate_free-webfont.eot');
+  src: local('☺'), url('/fonts/negotiate_free-webfont.woff') format('woff'), url('/fonts/negotiate_free-webfont.ttf') format('truetype'), url('/fonts/negotiate_free-webfont.svg#webfontfy5xH305') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/*fenders*/
+body.fenders{}
+body.fenders section#fender_type{padding:0 1em;}
+body.fenders section#fender_type h1{color:#BF1722;font-family:"Times New Roman";font-size:24px;line-height:1;font-weight:bold;padding:0;text-shadow:1px 1px tan;text-transform:uppercase;}
+body.fenders section#fender_type ul {list-style-type:none;padding:0;margin:0;}
+body.fenders section#fender_type article h1{font-size:18px;font-weight:bold;color:#143466;font-family:NegotiateFree,rockwell,arial,cambria,georgia,times,serif;}
+body.fenders section#fender_type p.description{font-size:12px;margin:1em 0;}

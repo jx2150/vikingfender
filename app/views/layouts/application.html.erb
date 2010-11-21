@@ -51,65 +51,65 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <body class="<%= body_classes.join(' ') %>"> <!--<![endif]-->
 
   <div id="container">
-    <header>
-      <hgroup>
-        <h1>
-          <%= t 'viking_fender' %>
-        </h1>
-        <h2><%= t 'a_division_of' %></h2>
-      </hgroup>
-      <nav>
-        <h1>navigation</h1>
-        <ul>
-          <!--<li id="nav_home"><%= link_to "home", "/" %></li>-->
-          <li id="nav_fenders">
-            <%= link_to "fenders", fenders_path %>
-            <ul>
-              <li class="fenders bow"><%= link_to "bow fenders", "/fenders/bow" %></li>
-              <li class="fenders side"><%= link_to "side fenders", "/fenders/side" %></li>
-              <li class="fenders stern"><%= link_to "stern fenders", "/fenders/stern" %></li>
-              <li class="fenders notch"><%= link_to "notch fenders", "/fenders/notch" %></li>
-              <li class="fenders pier"><%= link_to "pier fenders", "/fenders/pier" %></li>
-              <li class="fenders mounting-clips"><%= link_to "mounting clips", "/fenders/mounting-clips" %></li>
-              <li class="fenders softloop">
-                <%= link_to "softloop", "/fenders/softloop" %>
-                <ul>
-                  <li class="fenders softloop bow"><%= link_to "bow fenders", "/fenders/softloop-bow" %></li>
-                  <li class="fenders softloop side"><%= link_to "side fenders", "/fenders/softloop-side" %></li>
-                  <li class="fenders softloop stern"><%= link_to "stern fenders", "/fenders/softloop-stern" %></li>
-                </ul>
-              </li>
-              <li class="fenders softlite"><%= link_to "softlite", "/fenders/softlite" %></li>
-              <li class="fenders extruded"><%= link_to "extruded rubber", "/fenders/extruded" %></li>
-              <li class="fenders yacht">
-               <%= link_to "yacht fenders", "/fenders/yacht" %>
-                <ul>
-                  <li class="fenders yacht 1"><%= link_to "yacht fender 1", "/fenders/yacht-1" %></li>
-                  <li class="fenders yacht 2"><%= link_to "yacht fender 2", "/fenders/yacht-2" %></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <!--<li id="nav_load_deformation"><a href="services.html">load deformation curves</a></li>-->
-          <li id="nav_services">
-            <a href="services.html">services</a>
-            <ul>
-              <li><a href="">spelter socket installation</a></li>
-              <li><a href="">foam filled fenders</a></li>
-            </ul>
-          </li>
-          <li id="nav_press"><a href="press.html">press</a></li>
-          <li id="nav_flyer"><a href="flyer.html">flyer</a></li>
-          <li id="nav_catalog"><a href="catalog.html">catalog</a></li>
-          <li id="nav_contact"><a href="contact.html">contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <div id="main">
-      <%= yield %>
+    	<header>
+	      <nav>
+	        <h1>navigation</h1>
+	        <ul>
+	          <li id="nav_home"><%= link_to "home", "/" %></li>
+	          <li id="nav_fenders" class="left">
+	            <%= link_to "fenders", fenders_path %>
+	            <ul>
+	              <li class="fenders bow"><%= link_to "bow fenders", "/fenders/bow" %></li>
+	              <li class="fenders side"><%= link_to "side fenders", "/fenders/side" %></li>
+	              <li class="fenders stern"><%= link_to "stern fenders", "/fenders/stern" %></li>
+	              <li class="fenders notch"><%= link_to "notch fenders", "/fenders/notch" %></li>
+	              <li class="fenders pier"><%= link_to "pier fenders", "/fenders/pier" %></li>
+	              <li class="fenders mounting-clips"><%= link_to "mounting clips", "/fenders/mounting-clips" %></li>
+	              <li class="fenders softloop">
+	                <span>softloop</span>
+	                <ul>
+	                  <li class="fenders softloop bow"><%= link_to "bow fenders", "/fenders/softloop-bow" %></li>
+	                  <li class="fenders softloop side"><%= link_to "side fenders", "/fenders/softloop-side" %></li>
+	                  <li class="fenders softloop stern"><%= link_to "stern fenders", "/fenders/softloop-stern" %></li>
+	                </ul>
+	              </li>
+	              <li class="fenders softlite"><%= link_to "softlite", "/fenders/softlite" %></li>
+	              <li class="fenders extruded"><%= link_to "extruded rubber", "/fenders/extruded" %></li>
+	              <li class="fenders yacht">
+	               <%= link_to "yacht fenders", "/fenders/yacht" %>
+	                <ul>
+	                  <li class="fenders yacht 1"><%= link_to "yacht fender 1", "/fenders/yacht-1" %></li>
+	                  <li class="fenders yacht 2"><%= link_to "yacht fender 2", "/fenders/yacht-2" %></li>
+	                </ul>
+	              </li>
+	            </ul>
+	          </li>
+	          <!--<li id="nav_load_deformation"><a href="services.html">load deformation curves</a></li>-->
+	          <li id="nav_services" class="left">
+	            <a href="services.html">services</a>
+	            <ul>
+	              <li><a href="">spelter socket installation</a></li>
+	              <li><a href="">foam filled fenders</a></li>
+	            </ul>
+	          </li>
+	          <li id="nav_press" class="left"><a href="press.html">press</a></li>
+	          <li id="nav_flyer" class="right"><a href="flyer.html">flyer</a></li>
+	          <li id="nav_catalog" class="right"><a href="catalog.html">catalog</a></li>
+	          <li id="nav_contact" class="right"><a href="contact.html">contact</a></li>
+	        </ul>
+	      </nav>
+	    </header>
+    <div id="inner_container">
+		<hgroup>
+			<h1 class="logo">
+			<%= link_to (t 'viking_fender'), '/'%>
+			</h1>
+			<h2 class="subtext"><%= t 'a_division_of' %></h2>
+		  </hgroup>
+	    <div id="main">
+	      <%= yield %>
+	    </div>
     </div>
-    
     <footer class="default">
       <section id="footer_info" itemscope itemtype="http://data-vocabulary.org/Organization">
         <h1 itemprop="name"><span itemprop="region"><%= t 'viking_fender' %></span></h1>
@@ -124,8 +124,7 @@
         </p>
       </section>
     </footer>
-  </div> <!--! end of #container -->
-
+  </div><!--! end of #container -->
 
   <!-- Javascript at the bottom for fast page loading -->
 

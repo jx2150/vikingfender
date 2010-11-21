@@ -1,0 +1,164 @@
+
+--- 
+fenders: 
+  columns: 
+  - id
+  - fender_type
+  - name
+  - title
+  - description
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - bow
+    - Laminated Bow Mat-Style
+    - Laminated Bow Mat-Style
+    - "Our laminated Mat-Style Fenders are constructed using a 1 1/2\" round bar skeletal frame. Nylon reinforced synthetic rubber, sculpted to a specific size, is then installed by hand, one at a time onto the skeletal frame. Hydraulic pressure in excess of ten (10) tons is used to press the treads tight against one another. Ends are then fitted with plate or steel angle. Weldless steel rings are installed among the treads at strategic points throughout the fender, which are then used to secure the fender to the boat hull. "
+    - 2010-10-07 04:11:33.702482
+    - 2010-10-07 04:11:33.702482
+  - - 2
+    - bow
+    - Turk's Head Bow Fenders
+    - Turk's Head Bow Fenders
+    - "The Turk's Head is ideal for model bow or tugs with a sharp bow because the laminations run horizontally, preventing the sharp bow from working between the laminations.\r\n\
+      Turk's Head Bow Fenders are adjustable to fit most model bow tugs and can also be used as a lower bow fender on larger tugs. "
+    - 2010-10-07 04:12:33.440858
+    - 2010-10-07 04:12:33.440858
+  - - 3
+    - bow
+    - The Laminated D-Shape
+    - The Laminated D-Shape
+    - "The laminated D-Shape  is often chosen because it enables fendering systems to be changed-out in one (1) foot segments, as they are designed to be stacked up one on top of another.\r\n\
+      Laminated D-Shape Fenders are designed to fit various hull configurations. Each fender is independently mounted to the hull. "
+    - 2010-10-07 04:13:59.982347
+    - 2010-10-07 04:13:59.982347
+  - - 4
+    - side
+    - Mat-Style Hip Fenders
+    - Mat-Style Hip Fenders
+    - Mat-Style Hip Fenders are often used for barge handling tugboat. These fenders are solidly mounted to the tugs hull. They are long lasting and typically cover the area aft of the bow fenders, back to the 1/4 bitt.
+    - 2010-10-07 04:18:16.143064
+    - 2010-10-07 04:18:16.143064
+  - - 5
+    - side
+    - Laminated D-Shape Side Fenders
+    - Laminated D-Shape Side Fenders
+    - "Laminated D-Shape Side Fenders overwhelming popularity stems from their reputation for durability, easy installation, lack of maintenance, and an inexpensive price tag.\r\n\
+      Laminated D-Shape Side Fenders are known for their reputation for durability, easy installation, lack of maintenance, and an inexpensive price tag. "
+    - 2010-10-07 04:19:18.639922
+    - 2010-10-07 04:19:18.639922
+  - - 6
+    - side
+    - Hanging-Type Side Fenders
+    - Hanging-Type Side Fenders
+    - "Hanging-Type Side Fenders are widely used for harbor and river tugs. Pigtalls and Single Tier Fenders are also made in various lengths: 2-foot through 8-foot sections for the Pigtails and 3-foot to 6-foot lengths for the Single Tiers. In addition, Pigtails can be made with fixed or swivel eye ends."
+    - 2010-10-07 04:20:01.188721
+    - 2010-10-07 04:20:01.188721
+  - - 7
+    - side
+    - Bucket Fenders
+    - Bucket Fenders
+    - "Bucket Fenders - This fender was designed to be used on the side of a tug's wheelhouse, allowing the tug to work under the flare of the ship's bow.  But these fenders are often used in many other applications.\r\n\
+      This fender was designed to be used on the side of a tug's wheelhouse, allowing the tug to work under the flare of the ship's bow.  But these fenders are often used in many other applications.  "
+    - 2010-10-07 04:21:01.687876
+    - 2010-10-07 04:21:01.687876
+  - - 8
+    - stern
+    - Bulward Stern Fender
+    - Bulward Stern Fender
+    - ""
+    - 2010-10-07 04:22:45.035870
+    - 2010-10-07 04:22:45.035870
+  - - 9
+    - stern
+    - Mat-Style Bulward Stern Fender
+    - Mat-Style Bulward Stern Fender
+    - ""
+    - 2010-10-07 04:23:01.462884
+    - 2010-10-07 04:23:01.462884
+  - - 10
+    - notch
+    - Laminated Notch Side Pads
+    - Laminated Notch Side Pads
+    - |
+      These fenders are specially designed to fill the space between the tug and barge Notch. Various thicknesses are available. Viking will take accurate measurements and design a solution to your Notch Fendering needs FREE OF CHARGE.
+
+    - 2010-10-07 04:24:18.924824
+    - 2010-10-07 04:24:18.924824
+  - - 11
+    - pier
+    - Pier Fenders
+    - Pier Fenders
+    - "Viking offers laminated rubber, molded rubber and Softlite foam fenders for use on piers. "
+    - 2010-10-07 04:25:05.547608
+    - 2010-10-07 04:25:05.547608
+  - - 12
+    - mounting-clips
+    - Mounting Clips
+    - Mounting Clips
+    - "Manufactured from 1\" round bar steel, U-Clips and Sea Gull Clips are shaped and then welded to the hull to secure the fender. They provide a very strong, long-lasting connection. U-Clips and Sea Gull Clips are used to secure fenders to the hull when limited height space is available.\" "
+    - 2010-10-07 04:25:57.998635
+    - 2010-10-07 04:25:57.998635
+  - - 13
+    - softloop-bow
+    - SoftLoop Bow Fenders
+    - SoftLoop Bow Fenders
+    - "Viking Enhanced SoftLoop Bow Fenders are generally considered the softest, most forgiving ship assist fender on the market. They are designed for greater energy absorption and gripping ability.\n\
+      These fenders are also ideal for tractor tugs bow, stern and side fenders, side hip fenders for tug and barge units and pier cell fenders. "
+    - 2010-10-07 04:27:58.881311
+    - 2010-10-07 04:27:58.881311
+  - - 14
+    - softloop-side
+    - SoftLoop Side Fenders
+    - SoftLoop Side Fenders
+    - "Viking Enhanced SoftLoop Side Fenders are generally considered the softest, most forgiving ship assist fender on the market. They are designed for greater energy absorption and gripping ability. These fenders are also ideal for tractor tugs bow, stern and side fenders, side hip fenders for tug and barge units and pier cell fenders. "
+    - 2010-10-07 04:28:41.110513
+    - 2010-10-07 04:28:41.110513
+  - - 15
+    - softloop-stern
+    - SoftLoop Stern Fenders
+    - SoftLoop Stern Fenders
+    - Viking Enhanced SoftLoop Stern Fenders are generally considered the softest, most forgiving ship assist fender on the market. They are designed for greater energy absorption and gripping ability. These fenders are also ideal for tractor tugs bow, stern and side fenders, side hip fenders for tug and barge units and pier cell fenders.
+    - 2010-10-07 04:29:42.942145
+    - 2010-10-07 04:29:42.942145
+  - - 16
+    - softlite
+    - Softlite Foam Ship and Pier Fenders
+    - Softlite Foam Ship and Pier Fenders
+    - "Viking \"Softlite Foam Ship and Pier Fenders are the longest lived, lightest heavy-duty ship and pier fenders available. In addition to durability and performance, \"Softlite\" Foam Ship and Pier Fenders are easier to use, safer to handle and require fewer personnel and lighter equipment to deploy and retrieve.\r\n\
+      \r\n\
+      \"Softlite\" Foam Ship and Pier Fenders are made of spirally welded, ionically cross-linked ionomer foam. Ionomer resins are high grade termoplastic polymers that have the unique ability to link with neighboring molecular chains with the same bond as the polymer chain itself. Softlite ionomer foam is considered the toughest, most durable, flexible low density, closed-cell foam on the market.\r\n\
+      \r\n\
+      \"Softlite\" Foam Ship and Pier Fenders are finished with an integral skin of higher density foam that is flexible, tough, and non-abrasive and which is welded into the structure of the fender with the same ionic bond.\r\n\
+      \r\n\
+      Because of the unique ionomer foam construction, the fenders have unsurpassed strength and integrity combined with high energy absorption and a skin that is at the same time exceptionally tough and non-abrasive.\r\n\
+      \r\n\
+      Viking \"Softlite\" Foam Ship and Pier Fenders are manufactured in sizes from 8\" X 24\" up to 12' X 24'. Small sizes are single pieces, while larger sizes are manufactured in modules for simplicity and lower cost of replacement.\r\n\
+      \r\n\
+      View samples of these type of fenders.\r\n    ... Mechanically Affixed\r\n    ... Softlite With the use of Adhesive\r\n    ... Deployed Fenders\r\n    ... Berthing Energy Characteristics "
+    - 2010-10-07 04:31:42.182772
+    - 2010-10-07 04:31:42.182772
+  - - 17
+    - extruded
+    - Molded & Extruded Rubber Fenders
+    - Molded & Extruded Rubber Fenders
+    - "Molded & Extruded Rubber Fenders offer more choices for Side Fendering. These fenders have a pleasing appearance and are long-lasting when used against smooth, flat surfaces, such as barges and ships. However, they are susceptible to cuts and tears when used against sharp and very rough surfaces. "
+    - 2010-10-07 04:33:00.704938
+    - 2010-10-07 04:33:00.704938
+  - - 18
+    - yacht
+    - Yacht Fender 1
+    - Yacht Fender 1
+    - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    - 2010-10-07 04:36:32.709535
+    - 2010-10-07 04:36:32.709535
+  - - 19
+    - yacht
+    - Yacht Fender 2
+    - Yacht Fender 2
+    - |-
+      Yacht Fender 2
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    - 2010-10-07 04:37:11.748224
+    - 2010-10-07 04:37:11.748224

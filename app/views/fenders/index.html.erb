@@ -1,29 +1,60 @@
-<h1>Listing fenders</h1>
+<section id="fender_type">
 
-<table>
-  <tr>
-    <th>Fender type</th>
-    <th>Name</th>
-    <th>Title</th>
-    <th>Description</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @fenders.each do |fender| %>
-  <tr>
-    <td><%= fender.fender_type %></td>
-    <td><%= fender.name %></td>
-    <td><%= fender.title %></td>
-    <td><%= fender.description %></td>
-    <td><%= link_to 'Show', fender %></td>
-    <td><%= link_to 'Edit', edit_fender_path(fender) %></td>
-    <td><%= link_to 'Destroy', fender, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
+	<% if params[:action] == 'list_by_type' %>
+	    <h1><%= @fenders[0].fender_type %> <span>Fenders</span></h1>
+		<p id="type_overview">
+			<%= @fenders[0].summary %>
+		</p>
+	<% else %>
+	    <h1>All Fenders</h1>
+	<% end %>
+	
+	<ul>
+	<% @fenders.each do |fender| %>
+	
+		<li>
+			<article>
+				<h1><%= fender.name%></h1>
+				<p class="description">
+					<%= fender.description %>
+				</p>
+				
+				<% if fender.assets.length > 1 %>
+				<aside>
+					<ul>
+					<% fender.assets.each_with_index do |asset,index| %>
+					    <li><%= link_to( image_tag(asset.photo.url(:large)), asset.photo.url(:large) ) %></li>
+				    <% end %>
+					</ul>
+				</aside>
+				<% end %>
+				<aside id="edit">
+				<%= link_to 'Show', fender %>|
+				<%= link_to 'Edit', edit_fender_path(fender) %>|
+				<%= link_to 'Destroy', fender, :confirm => 'Are you sure?', :method => :delete %>
+				</aside>
+			</article>
+		</li>
+	  <!--
+	  <tr>
+	    <td><%= fender.fender_type %></td>
+	    <td><%= fender.name %></td>
+	    <td><%= fender.title %></td>
+	    <td><%= fender.description %></td>
+		<td><%= link_to 'Show', fender %></td>
+	    <td><%= link_to 'Edit', edit_fender_path(fender) %></td>
+	    <td><%= link_to 'Destroy', fender, :confirm => 'Are you sure?', :method => :delete %></td>
+	  </tr>
+	  <tr>
+		<% fender.assets.each_with_index do |asset,index| %>
+		    <td><%= link_to( image_tag(asset.photo.url(:thumb)), asset.photo.url(:small) ) %></td>
+	    <% end %>
+	  </tr>
+	  -->
+	<% end %>
+	</ul>
 
 <br />
-
 <%= link_to 'New Fender', new_fender_path %>
+
+</section>
