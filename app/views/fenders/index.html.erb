@@ -1,5 +1,34 @@
+<% content_for :js_to_load_b4_closing_body do %>
+<script>
+$(function(){
+	var gallery_data = [
+	<% @fenders.each do |fender| %>
+		<% if fender.assets.length > 0 %>
+			<% fender.assets.each_with_index do |asset,index| %>
+				{
+					image: "<%= asset.photo.url(:large) %>",
+					thumb: "<%= asset.photo.url(:thumb) %>",
+					title: "<%= fender.name %>",
+					link: "<%= url_for(fender) %>"
+				}<% if index != fender.assets.length %>,<% end %>
+			<% end %>
+		<% end %>
+	<% end %>
+	];
+	
+	$('#image_gallery').galleria({
+	    data_source: gallery_data,
+		autoplay: 6000,
+		image_crop: 'height',
+		show_counter: false
+	});
+	
+})
+</script>
+<% end %>
 <section id="fender_type">
-
+	<div id="image_gallery"></div>
+	<div id="fender_type_header">
 	<% if params[:action] == 'list_by_type' %>
 	    <h1><%= @fenders[0].fender_type %> <span>Fenders</span></h1>
 		<p id="type_overview">
@@ -8,22 +37,28 @@
 	<% else %>
 	    <h1>All Fenders</h1>
 	<% end %>
+	</div>
 	
 	<ul>
 	<% @fenders.each do |fender| %>
 	
 		<li>
 			<article>
-				<h1><%= fender.name%></h1>
-				<p class="description">
-					<%= fender.description %>
-				</p>
-				
-				<% if fender.assets.length > 1 %>
+				<div class="text">
+					<h1><%= link_to fender.name, fender %></h1>
+					<!--
+					<p class="description">
+						<%= fender.description %>
+					</p>
+					-->
+				</div>
+				<% if fender.assets.length > 0 %>
 				<aside>
 					<ul>
 					<% fender.assets.each_with_index do |asset,index| %>
-					    <li><%= link_to( image_tag(asset.photo.url(:large)), asset.photo.url(:large) ) %></li>
+						
+						<li><%= link_to( image_tag(asset.photo.url(:thumb)), asset.photo.url(:thumb) ) %></li>
+						
 				    <% end %>
 					</ul>
 				</aside>
@@ -35,6 +70,7 @@
 				</aside>
 			</article>
 		</li>
+		
 	  <!--
 	  <tr>
 	    <td><%= fender.fender_type %></td>

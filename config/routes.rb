@@ -12,6 +12,7 @@ Boilerplate::Application.routes.draw do |map|
   match "fenders/softlite" => "fenders#list_by_type", :defaults => { :fender_type => 'softlite'}
   match "fenders/extruded" => "fenders#list_by_type", :defaults => { :fender_type => 'extruded'}
   match "fenders/yacht" => "fenders#list_by_type", :defaults => { :fender_type => 'yacht'}
+  match "fenders/pushknee" => "fenders#list_by_type", :defaults => { :fender_type => 'pushknee'}
   
   resources :fenders
   
