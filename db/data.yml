@@ -9,6 +9,7 @@ fenders:
   - description
   - created_at
   - updated_at
+  - summary
   records: 
   - - 1
     - bow
@@ -17,6 +18,7 @@ fenders:
     - "Our laminated Mat-Style Fenders are constructed using a 1 1/2\" round bar skeletal frame. Nylon reinforced synthetic rubber, sculpted to a specific size, is then installed by hand, one at a time onto the skeletal frame. Hydraulic pressure in excess of ten (10) tons is used to press the treads tight against one another. Ends are then fitted with plate or steel angle. Weldless steel rings are installed among the treads at strategic points throughout the fender, which are then used to secure the fender to the boat hull. "
     - 2010-10-07 04:11:33.702482
     - 2010-10-07 04:11:33.702482
+    - "Bow Fenders are generally considered the most important fender on a tug boat. Viking offers a variety of fenders for the bow, such as the Laminated Bow Mat-Style Laminated Turk's Head, Laminated D-Shape, and Molded and Extruded Rubber Fenders. "
   - - 2
     - bow
     - Turk's Head Bow Fenders
@@ -24,7 +26,8 @@ fenders:
     - "The Turk's Head is ideal for model bow or tugs with a sharp bow because the laminations run horizontally, preventing the sharp bow from working between the laminations.\r\n\
       Turk's Head Bow Fenders are adjustable to fit most model bow tugs and can also be used as a lower bow fender on larger tugs. "
     - 2010-10-07 04:12:33.440858
-    - 2010-10-07 04:12:33.440858
+    - 2010-11-21 07:00:21.079212
+    - "Bow Fenders are generally considered the most important fender on a tug boat. Viking offers a variety of fenders for the bow, such as the Laminated Bow Mat-Style Laminated Turk's Head, Laminated D-Shape, and Molded and Extruded Rubber Fenders. "
   - - 3
     - bow
     - The Laminated D-Shape
@@ -32,7 +35,8 @@ fenders:
     - "The laminated D-Shape  is often chosen because it enables fendering systems to be changed-out in one (1) foot segments, as they are designed to be stacked up one on top of another.\r\n\
       Laminated D-Shape Fenders are designed to fit various hull configurations. Each fender is independently mounted to the hull. "
     - 2010-10-07 04:13:59.982347
-    - 2010-10-07 04:13:59.982347
+    - 2010-11-21 07:01:02.198352
+    - "Bow Fenders are generally considered the most important fender on a tug boat. Viking offers a variety of fenders for the bow, such as the Laminated Bow Mat-Style Laminated Turk's Head, Laminated D-Shape, and Molded and Extruded Rubber Fenders. "
   - - 4
     - side
     - Mat-Style Hip Fenders
@@ -40,6 +44,7 @@ fenders:
     - Mat-Style Hip Fenders are often used for barge handling tugboat. These fenders are solidly mounted to the tugs hull. They are long lasting and typically cover the area aft of the bow fenders, back to the 1/4 bitt.
     - 2010-10-07 04:18:16.143064
     - 2010-10-07 04:18:16.143064
+    - Of all the side fenders available, the Hip Fenders are the most important. Viking offers a variety of hip fenders for different applications. For instance, ship docking hip fenders are thick and absorb a multitude of energy. The thickness allows the tug to work closer to the bow and stern of the ship without making contact with the wheel house of the tug. Viking also offers wheel house fenders so even if contact is made, it won't be metal to metal.
   - - 5
     - side
     - Laminated D-Shape Side Fenders
@@ -47,7 +52,8 @@ fenders:
     - "Laminated D-Shape Side Fenders overwhelming popularity stems from their reputation for durability, easy installation, lack of maintenance, and an inexpensive price tag.\r\n\
       Laminated D-Shape Side Fenders are known for their reputation for durability, easy installation, lack of maintenance, and an inexpensive price tag. "
     - 2010-10-07 04:19:18.639922
-    - 2010-10-07 04:19:18.639922
+    - 2010-11-21 07:10:00.709454
+    - Of all the side fenders available, the Hip Fenders are the most important. Viking offers a variety of hip fenders for different applications. For instance, ship docking hip fenders are thick and absorb a multitude of energy. The thickness allows the tug to work closer to the bow and stern of the ship without making contact with the wheel house of the tug. Viking also offers wheel house fenders so even if contact is made, it won't be metal to metal.
   - - 6
     - side
     - Hanging-Type Side Fenders
@@ -55,6 +61,7 @@ fenders:
     - "Hanging-Type Side Fenders are widely used for harbor and river tugs. Pigtalls and Single Tier Fenders are also made in various lengths: 2-foot through 8-foot sections for the Pigtails and 3-foot to 6-foot lengths for the Single Tiers. In addition, Pigtails can be made with fixed or swivel eye ends."
     - 2010-10-07 04:20:01.188721
     - 2010-10-07 04:20:01.188721
+    - Of all the side fenders available, the Hip Fenders are the most important. Viking offers a variety of hip fenders for different applications. For instance, ship docking hip fenders are thick and absorb a multitude of energy. The thickness allows the tug to work closer to the bow and stern of the ship without making contact with the wheel house of the tug. Viking also offers wheel house fenders so even if contact is made, it won't be metal to metal.
   - - 7
     - side
     - Bucket Fenders
@@ -62,7 +69,8 @@ fenders:
     - "Bucket Fenders - This fender was designed to be used on the side of a tug's wheelhouse, allowing the tug to work under the flare of the ship's bow.  But these fenders are often used in many other applications.\r\n\
       This fender was designed to be used on the side of a tug's wheelhouse, allowing the tug to work under the flare of the ship's bow.  But these fenders are often used in many other applications.  "
     - 2010-10-07 04:21:01.687876
-    - 2010-10-07 04:21:01.687876
+    - 2010-11-21 15:17:08.282490
+    - Of all the side fenders available, the Hip Fenders are the most important. Viking offers a variety of hip fenders for different applications. For instance, ship docking hip fenders are thick and absorb a multitude of energy. The thickness allows the tug to work closer to the bow and stern of the ship without making contact with the wheel house of the tug. Viking also offers wheel house fenders so even if contact is made, it won't be metal to metal.
   - - 8
     - stern
     - Bulward Stern Fender
@@ -70,6 +78,10 @@ fenders:
     - ""
     - 2010-10-07 04:22:45.035870
     - 2010-10-07 04:22:45.035870
+    - "Viking offers a variety of stern fenders for both bulwark and waist areas. (See photos below)\n\n\
+      Tug owners often wish their fender was longer so the wire wouldn't catch it. Our recommendation for harbor and river tugboats is to fender completely around the stern and far enough up the sides so wires and hawsers can't foul on the forward end of a fender\n\n\
+      In designing stern fenders, Viking ensures that all hardware and rubber do not protrude about the rail, where contact could be made with the wire and/or hawser. Viking Sidewall Stern Fenders offer a uniform conical surface that allows wire lines to slide over it smoothly.\n\n\
+      We also relegate and seams to areas where the wire or hawser has the least chance of fetching up in them. "
   - - 9
     - stern
     - Mat-Style Bulward Stern Fender
@@ -77,6 +89,10 @@ fenders:
     - ""
     - 2010-10-07 04:23:01.462884
     - 2010-10-07 04:23:01.462884
+    - "Viking offers a variety of stern fenders for both bulwark and waist areas. (See photos below)\n\n\
+      Tug owners often wish their fender was longer so the wire wouldn't catch it. Our recommendation for harbor and river tugboats is to fender completely around the stern and far enough up the sides so wires and hawsers can't foul on the forward end of a fender\n\n\
+      In designing stern fenders, Viking ensures that all hardware and rubber do not protrude about the rail, where contact could be made with the wire and/or hawser. Viking Sidewall Stern Fenders offer a uniform conical surface that allows wire lines to slide over it smoothly.\n\n\
+      We also relegate and seams to areas where the wire or hawser has the least chance of fetching up in them. "
   - - 10
     - notch
     - Laminated Notch Side Pads
@@ -85,14 +101,16 @@ fenders:
       These fenders are specially designed to fill the space between the tug and barge Notch. Various thicknesses are available. Viking will take accurate measurements and design a solution to your Notch Fendering needs FREE OF CHARGE.
 
     - 2010-10-07 04:24:18.924824
-    - 2010-10-07 04:24:18.924824
+    - 2010-11-21 15:19:54.962067
+    - Viking Fender has special expertise in Notch Fendering. In this category, the term 'Fendering System' is most appropriate because the Bow Fenders work in perfect harmony with the Side Fenders when a tugboat fits properly in a barge. Proper Notch Fendering allows the tug to stay in notch in a more severe sea-way than a sloppy fit would permit, thereby helping the tug to maintain better control.
   - - 11
     - pier
-    - Pier Fenders
-    - Pier Fenders
+    - Monopile Fenders
+    - Monopile Fenders
+    - lorem ipsum dolor...
+    - 2010-10-07 04:25:05.547608
+    - 2010-10-07 04:25:05.547608
     - "Viking offers laminated rubber, molded rubber and Softlite foam fenders for use on piers. "
-    - 2010-10-07 04:25:05.547608
-    - 2010-10-07 04:25:05.547608
   - - 12
     - mounting-clips
     - Mounting Clips
@@ -100,14 +118,16 @@ fenders:
     - "Manufactured from 1\" round bar steel, U-Clips and Sea Gull Clips are shaped and then welded to the hull to secure the fender. They provide a very strong, long-lasting connection. U-Clips and Sea Gull Clips are used to secure fenders to the hull when limited height space is available.\" "
     - 2010-10-07 04:25:57.998635
     - 2010-10-07 04:25:57.998635
+    - 
   - - 13
     - softloop-bow
     - SoftLoop Bow Fenders
     - SoftLoop Bow Fenders
-    - "Viking Enhanced SoftLoop Bow Fenders are generally considered the softest, most forgiving ship assist fender on the market. They are designed for greater energy absorption and gripping ability.\n\
+    - "Viking Enhanced SoftLoop Bow Fenders are generally considered the softest, most forgiving ship assist fender on the market. They are designed for greater energy absorption and gripping ability.\r\n\
       These fenders are also ideal for tractor tugs bow, stern and side fenders, side hip fenders for tug and barge units and pier cell fenders. "
     - 2010-10-07 04:27:58.881311
-    - 2010-10-07 04:27:58.881311
+    - 2010-11-21 15:24:34.466266
+    - 
   - - 14
     - softloop-side
     - SoftLoop Side Fenders
@@ -115,6 +135,7 @@ fenders:
     - "Viking Enhanced SoftLoop Side Fenders are generally considered the softest, most forgiving ship assist fender on the market. They are designed for greater energy absorption and gripping ability. These fenders are also ideal for tractor tugs bow, stern and side fenders, side hip fenders for tug and barge units and pier cell fenders. "
     - 2010-10-07 04:28:41.110513
     - 2010-10-07 04:28:41.110513
+    - 
   - - 15
     - softloop-stern
     - SoftLoop Stern Fenders
@@ -122,6 +143,7 @@ fenders:
     - Viking Enhanced SoftLoop Stern Fenders are generally considered the softest, most forgiving ship assist fender on the market. They are designed for greater energy absorption and gripping ability. These fenders are also ideal for tractor tugs bow, stern and side fenders, side hip fenders for tug and barge units and pier cell fenders.
     - 2010-10-07 04:29:42.942145
     - 2010-10-07 04:29:42.942145
+    - 
   - - 16
     - softlite
     - Softlite Foam Ship and Pier Fenders
@@ -139,6 +161,7 @@ fenders:
       View samples of these type of fenders.\r\n    ... Mechanically Affixed\r\n    ... Softlite With the use of Adhesive\r\n    ... Deployed Fenders\r\n    ... Berthing Energy Characteristics "
     - 2010-10-07 04:31:42.182772
     - 2010-10-07 04:31:42.182772
+    - 
   - - 17
     - extruded
     - Molded & Extruded Rubber Fenders
@@ -146,19 +169,355 @@ fenders:
     - "Molded & Extruded Rubber Fenders offer more choices for Side Fendering. These fenders have a pleasing appearance and are long-lasting when used against smooth, flat surfaces, such as barges and ships. However, they are susceptible to cuts and tears when used against sharp and very rough surfaces. "
     - 2010-10-07 04:33:00.704938
     - 2010-10-07 04:33:00.704938
+    - yacht inflatable fendering lorem ipsum
   - - 18
     - yacht
-    - Yacht Fender 1
-    - Yacht Fender 1
+    - Inflatable Fender
+    - Inflatable Fender
     - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     - 2010-10-07 04:36:32.709535
-    - 2010-10-07 04:36:32.709535
+    - 2010-11-21 15:36:45.073661
+    - yacht fendering lorem ipsum dolor
   - - 19
     - yacht
-    - Yacht Fender 2
-    - Yacht Fender 2
+    - Softlite Fender
+    - Softlite Fender
     - |-
       Yacht Fender 2
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     - 2010-10-07 04:37:11.748224
-    - 2010-10-07 04:37:11.748224
+    - 2010-11-21 15:40:46.839108
+    - 
+  - - 22
+    - pushknee
+    - Push Knee Tug Fenders
+    - Push Knee Tug Fenders
+    - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    - 2010-11-21 15:55:45.908397
+    - 2010-11-21 15:55:45.908397
+    - 
+  - - 23
+    - pier
+    - Softlite Fenders
+    - Softlite Fenders
+    - lorem ipsum dolor...
+    - 2010-10-07 04:25:05.547608
+    - 2010-10-07 04:25:05.547608
+    - "Viking offers laminated rubber, molded rubber and Softlite foam fenders for use on piers. "
+
+--- 
+assets: 
+  columns: 
+  - id
+  - fender_id
+  - created_at
+  - updated_at
+  - photo_file_name
+  - photo_content_type
+  - photo_file_size
+  - photo_updated_at
+  records: 
+  - - 1
+    - 1
+    - 2010-11-21 06:55:46.834573
+    - 2010-11-21 06:55:46.834573
+    - mat_style_bow_fender.jpg
+    - image/jpeg
+    - 42705
+    - 2010-11-21 06:55:44.928631
+  - - 2
+    - 1
+    - 2010-11-21 06:55:47.192504
+    - 2010-11-21 06:55:47.192504
+    - mat_style_bow_fender_2.jpg
+    - image/jpeg
+    - 18705
+    - 2010-11-21 06:55:46.614988
+  - - 3
+    - 2
+    - 2010-11-21 07:00:21.083208
+    - 2010-11-21 07:00:21.083208
+    - lower_turks_head_arrow.jpg
+    - image/jpeg
+    - 28596
+    - 2010-11-21 07:00:20.404547
+  - - 4
+    - 2
+    - 2010-11-21 07:00:21.192474
+    - 2010-11-21 07:00:21.192474
+    - turks_head_on_the_ground.jpg
+    - image/jpeg
+    - 22993
+    - 2010-11-21 07:00:20.891678
+  - - 5
+    - 3
+    - 2010-11-21 07:01:02.201677
+    - 2010-11-21 07:01:02.201677
+    - laminated_D_shape_bow_fender.jpg
+    - image/jpeg
+    - 21333
+    - 2010-11-21 07:01:01.716205
+  - - 6
+    - 4
+    - 2010-11-21 07:03:28.760178
+    - 2010-11-21 07:03:28.760178
+    - mat_style_hip_side_fender_b.jpg
+    - image/jpeg
+    - 25306
+    - 2010-11-21 07:03:28.005221
+  - - 7
+    - 5
+    - 2010-11-21 07:10:00.905185
+    - 2010-11-21 07:10:00.905185
+    - side_fendering.jpg
+    - image/jpeg
+    - 20481
+    - 2010-11-21 07:09:58.476513
+  - - 8
+    - 5
+    - 2010-11-21 07:10:01.138940
+    - 2010-11-21 07:10:01.138940
+    - access_a-b_marks.jpg
+    - image/jpeg
+    - 19783
+    - 2010-11-21 07:10:00.243705
+  - - 9
+    - 5
+    - 2010-11-21 07:10:01.248508
+    - 2010-11-21 07:10:01.248508
+    - access_in_side_fender.jpg
+    - image/jpeg
+    - 16465
+    - 2010-11-21 07:10:00.495418
+  - - 10
+    - 5
+    - 2010-11-21 07:10:47.168126
+    - 2010-11-21 07:10:47.168126
+    - D_shape_side_fender.jpg
+    - image/jpeg
+    - 36428
+    - 2010-11-21 07:10:41.981083
+  - - 11
+    - 6
+    - 2010-11-21 15:15:20.100554
+    - 2010-11-21 15:15:20.100554
+    - hanging_type_side_fender.jpg
+    - image/jpeg
+    - 23840
+    - 2010-11-21 15:15:18.857830
+  - - 12
+    - 7
+    - 2010-11-21 15:17:08.314037
+    - 2010-11-21 15:17:08.314037
+    - bucket_fender_photo_300.jpg
+    - image/jpeg
+    - 18484
+    - 2010-11-21 15:17:07.617900
+  - - 13
+    - 7
+    - 2010-11-21 15:17:08.372717
+    - 2010-11-21 15:17:08.372717
+    - bucket_fender_photo_300_17_k_bottom.jpg
+    - image/jpeg
+    - 17977
+    - 2010-11-21 15:17:08.114790
+  - - 14
+    - 8
+    - 2010-11-21 15:18:36.132146
+    - 2010-11-21 15:18:36.132146
+    - bulward_stern_fender.jpg
+    - image/jpeg
+    - 38462
+    - 2010-11-21 15:18:35.745784
+  - - 15
+    - 9
+    - 2010-11-21 15:19:14.824329
+    - 2010-11-21 15:19:14.824329
+    - mat_style_bulward_stern_fender.jpg
+    - image/jpeg
+    - 28534
+    - 2010-11-21 15:19:14.411389
+  - - 16
+    - 10
+    - 2010-11-21 15:19:54.965868
+    - 2010-11-21 15:19:54.965868
+    - notch_fender.jpg
+    - image/jpeg
+    - 45188
+    - 2010-11-21 15:19:54.531843
+  - - 17
+    - 11
+    - 2010-11-21 15:20:45.121527
+    - 2010-11-21 15:20:45.121527
+    - pier_fender.jpg
+    - image/jpeg
+    - 23536
+    - 2010-11-21 15:20:44.352962
+  - - 18
+    - 12
+    - 2010-11-21 15:21:23.758614
+    - 2010-11-21 15:21:23.758614
+    - sea_gull_mounting_clip.jpg
+    - image/jpeg
+    - 24374
+    - 2010-11-21 15:21:23.118568
+  - - 19
+    - 13
+    - 2010-11-21 15:24:34.483290
+    - 2010-11-21 15:24:34.483290
+    - softloop_BLUE_22k.jpg
+    - image/jpeg
+    - 22372
+    - 2010-11-21 15:24:33.226088
+  - - 20
+    - 13
+    - 2010-11-21 15:24:34.582826
+    - 2010-11-21 15:24:34.582826
+    - Emily_Ann_McAllister_457_25k.jpg
+    - image/jpeg
+    - 25648
+    - 2010-11-21 15:24:33.641409
+  - - 21
+    - 13
+    - 2010-11-21 15:24:34.643696
+    - 2010-11-21 15:24:34.643696
+    - emily_Anne_II_28k_457.jpg
+    - image/jpeg
+    - 25413
+    - 2010-11-21 15:24:33.868191
+  - - 22
+    - 13
+    - 2010-11-21 15:24:34.668313
+    - 2010-11-21 15:24:34.668313
+    - Tug_450_22k.jpg
+    - image/jpeg
+    - 23484
+    - 2010-11-21 15:24:34.074977
+  - - 23
+    - 13
+    - 2010-11-21 15:24:34.685746
+    - 2010-11-21 15:24:34.685746
+    - green_boat_wilmington_tugboat_27k_457.jpg
+    - image/jpeg
+    - 27491
+    - 2010-11-21 15:24:34.271131
+  - - 24
+    - 13
+    - 2010-11-21 15:25:05.180313
+    - 2010-11-21 15:25:05.180313
+    - softloop_bow_fender.jpg
+    - image/jpeg
+    - 45462
+    - 2010-11-21 15:25:04.764763
+  - - 25
+    - 15
+    - 2010-11-21 15:28:40.199682
+    - 2010-11-21 15:28:40.199682
+    - softloop_stern_fender_250_20k.jpg
+    - image/jpeg
+    - 21394
+    - 2010-11-21 15:28:38.975468
+  - - 26
+    - 16
+    - 2010-11-21 15:31:34.498639
+    - 2010-11-21 15:31:34.498639
+    - deployment_fender_1.jpg
+    - image/jpeg
+    - 27713
+    - 2010-11-21 15:31:33.175437
+  - - 27
+    - 16
+    - 2010-11-21 15:31:34.611738
+    - 2010-11-21 15:31:34.611738
+    - deployment_fender_2.jpg
+    - image/jpeg
+    - 41101
+    - 2010-11-21 15:31:33.626170
+  - - 28
+    - 16
+    - 2010-11-21 15:31:34.658623
+    - 2010-11-21 15:31:34.658623
+    - pilot_affixed.jpg
+    - image/jpeg
+    - 13828
+    - 2010-11-21 15:31:33.849188
+  - - 29
+    - 16
+    - 2010-11-21 15:31:34.730159
+    - 2010-11-21 15:31:34.730159
+    - softlite_affixed_2.jpg
+    - image/jpeg
+    - 31939
+    - 2010-11-21 15:31:34.035705
+  - - 30
+    - 16
+    - 2010-11-21 15:31:34.746516
+    - 2010-11-21 15:31:34.746516
+    - softlite_affixed_adhesive_fender_2.jpg
+    - image/jpeg
+    - 28622
+    - 2010-11-21 15:31:34.232811
+  - - 31
+    - 16
+    - 2010-11-21 15:31:59.198486
+    - 2010-11-21 15:31:59.198486
+    - softlite_affixed_adhesive_fender.jpg
+    - image/jpeg
+    - 28796
+    - 2010-11-21 15:31:58.709809
+  - - 32
+    - 16
+    - 2010-11-21 15:31:59.253152
+    - 2010-11-21 15:31:59.253152
+    - softlite_affixed.jpg
+    - image/jpeg
+    - 31913
+    - 2010-11-21 15:31:58.989989
+  - - 33
+    - 17
+    - 2010-11-21 15:33:13.435240
+    - 2010-11-21 15:33:13.435240
+    - molded_extruded_rubber_fender.jpg
+    - image/jpeg
+    - 25531
+    - 2010-11-21 15:33:12.980130
+  - - 34
+    - 18
+    - 2010-11-21 15:36:45.102791
+    - 2010-11-21 15:36:45.102791
+    - 015_15.JPG
+    - image/jpeg
+    - 1832002
+    - 2010-11-21 15:36:04.397041
+  - - 35
+    - 18
+    - 2010-11-21 15:36:45.258851
+    - 2010-11-21 15:36:45.258851
+    - 017_17.JPG
+    - image/jpeg
+    - 1638708
+    - 2010-11-21 15:36:40.816319
+  - - 36
+    - 19
+    - 2010-11-21 15:40:46.862437
+    - 2010-11-21 15:40:46.862437
+    - 085_85.JPG
+    - image/jpeg
+    - 2491021
+    - 2010-11-21 15:40:25.441698
+  - - 37
+    - 22
+    - 2010-11-21 15:55:46.456832
+    - 2010-11-21 15:55:46.456832
+    - 071_71.JPG
+    - image/jpeg
+    - 2192751
+    - 2010-11-21 15:55:21.405485
+  - - 38
+    - 14
+    - 2010-11-21 16:08:34.415903
+    - 2010-11-21 16:08:34.415903
+    - softlite_affixed_2.jpg
+    - image/jpeg
+    - 31939
+    - 2010-11-21 16:08:32.690697

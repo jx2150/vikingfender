@@ -1,4 +1,5 @@
 Boilerplate::Application.routes.draw do |map|
+  get "/about/" => "about#index"
   
   match "fenders/bow" => "fenders#list_by_type", :defaults => { :fender_type => 'bow'}
   match "fenders/side" => "fenders#list_by_type", :defaults => { :fender_type => 'side'}
