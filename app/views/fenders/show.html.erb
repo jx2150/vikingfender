@@ -1,25 +1,37 @@
-<p id="notice"><%= notice %></p>
+<% content_for :js_to_load_b4_closing_body do %>
+<script>
+$(function(){
+	var gallery_data = [
+		<% if @fender.assets.length > 0 %>
+			<% @fender.assets.each_with_index do |asset,index| %>
+				{
+					image: "<%= asset.photo.url(:large) %>",
+					thumb: "<%= asset.photo.url(:thumb) %>",
+					title: "<%= @fender.name %>",
+					link: "<%= url_for(@fender) %>"
+				}<% if index != @fender.assets.length %>,<% end %>
+			<% end %>
+		<% end %>
+	];
+	
+	$('#image_gallery').galleria({
+	    data_source: gallery_data,
+		autoplay: 6000,
+		image_crop: 'height',
+		show_counter: false
+	});
+	
+})
+</script>
+<% end %>
+<section id="fender_type">
+	<div id="image_gallery"></div>
+	<div id="fender_type_header">
+	    <h1 class="two-level"><%= @fender.name.gsub("Fenders","") %> <span>Fenders</span></h1>
+		<p id="type_overview">
+			<%= @fender.description %>
+		</p>
+	</div>
+</section>
 
-<p>
-  <b>Fender type:</b>
-  <%= @fender.fender_type %>
-</p>
-
-<p>
-  <b>Name:</b>
-  <%= @fender.name %>
-</p>
-
-<p>
-  <b>Title:</b>
-  <%= @fender.title %>
-</p>
-
-<p>
-  <b>Description:</b>
-  <%= @fender.description %>
-</p>
-
-
-<%= link_to 'Edit', edit_fender_path(@fender) %> |
 <%= link_to 'Back', fenders_path %>

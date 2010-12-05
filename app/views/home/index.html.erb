@@ -1,15 +1,57 @@
+<% content_for :js_to_load_b4_closing_body do %>
+<script>
+$(function(){
+	$('#crossfade-placeholder').crossSlide({
+	  fade: 1
+	}, 
+	[
+	  {
+	    src:  'http://media.vikingfender.com.s3.amazonaws.com/photos/featured/Madeline_tp2.jpg',
+	    alt:  'When Push Comes to Shove, Have A Viking On Your Side',
+	    from: '80% 60% 1x',
+	    to:   '45% 90% 1.5x',
+	    time: 8
+	  }, {
+	    src:  'http://media.vikingfender.com.s3.amazonaws.com/photos/featured/P9170068_0174.jpg',
+	    alt:  'Complete Marine Fendering For All Vessels',
+	    from: '35% 90% 1x',
+	    to:   '50% 40% 1.3x',
+	    time: 5
+	  }
+	],
+	function(idx, img, idxOut, imgOut) {
+	  if (idxOut == undefined)
+	  {
+		$('div.caption').text(img.alt).fadeIn()
+	    if(idx==0){
+		}else{
+		}
+	  }
+	  else
+	  {
+	    $('div.caption').fadeOut()
+	  }
+	});
+});
+</script>
+<% end %>
+<section id="crossfade">
+	<div id="crossfade-placeholder">
+	</div>
+	<div class="caption alt png_bg"></div>
+</section>
 <section id="boats" class="default">
   <article>
     <article id="tug_icon" class="boat_icon">
-    	<h1>Tug<span>Fendering</span></h1>
+    	<h1>Tug &amp; Utility<span>Fendering</span></h1>
 		<ul>
 			<li><%= link_to 'Bow', '/fenders/bow' %></li>
 			<li><%= link_to 'Stern', '/fenders/stern' %></li>
 			<li><%= link_to 'Side', '/fenders/side' %></li>
-			<li><%= link_to 'Molded', '/fenders/molded' %></li>
+			<li><%= link_to 'Molded', '/fenders/extruded' %></li>
 			<li><%= link_to 'Softloop', '/fenders/softloop' %></li>
 			<li><%= link_to 'Push Knee', '/fenders/push-knee' %></li>
-			<li><%= link_to 'Load Curves', '/loadcurves' %></li>
+			<li><%= link_to 'Load Deformation Curves', '/loadcurves' %></li>
 		</ul>
     </article>
     <article id="utility_icon" class="boat_icon">
@@ -37,30 +79,5 @@
 			<li><%= link_to 'Softlite Donut', '/fenders/softlite-donut' %></li>
 		</ul>
     </article>
-  </article>
-</section>
-<section id="home_copy" class="default">
-  <article>
-	<h2>Complete marine fendering for all vessels.</h2>
-	<h2><%= t 'slogan1' %> <%= t 'slogan2' %> <span><%= t 'slogan3'%></span> <%= t 'slogan4'%></h2>
-  <!--
-  <div class="left">
-		<p><%= t 'home_text_1' %></p>
-    	<p><%= t 'home_text_2' %></p>
-	</div>
-	<div class="right">
-	    <p><%= t 'home_text_3' %></p>
-    	<p><%= t 'home_text_4' %></p>
-		<p id="language"><a href="http://vikingfender.es"><%= t 'click_to_view_in' %></a></p>
-	</div>
-	-->
-  </article>
-</section>
-<section id="home_touts" class="default">
-  <article>
-    <article id="catalog_tout"><a href=""><span>Catalog</span></a></article>
-	<article id="services_tout"><a href=""><span>Services</span></a></article>
-	<article id="load_deform_tout"><a href=""><span>Load Deformation Curves</span></a></article>
-	<article id="contact_tout"><a href=""><span>Contact Us</span></a></article>
   </article>
 </section>

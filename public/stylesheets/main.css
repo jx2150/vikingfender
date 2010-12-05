@@ -10,40 +10,49 @@ b4a36b
 081e1b
 */
 
-body{font: normal 62.5% NegotiateFree,arial,sans-serif;}
+body{font: normal 62.5% arial,sans-serif;}
 a {color: #BF1722;}
 a:hover, a:focus, a:visited {color: #BF1722;-webkit-transition: color 150ms ease-in;-moz-transition: color 150ms ease-in;-o-transition: color 150ms ease-in;transition: color 150ms ease-in;}
 p {margin:0 0 1.5em 0}
+p {font-size:14px;margin:1em 0;}
+h1.two-level{background:url("/images/bg_light_swatch.png") repeat #F1EED8;border-left:1px dotted tan;color:#BF1722;font-family:"Times New Roman";font-size:27px;line-height:1;font-weight:bold;padding:10px;text-shadow:1px 1px tan;text-transform:uppercase;}
+h1.two-level span{font-size:14px;font-weight:normal;font-family:helvetica,arial,sans-serif;color:#143466;display:block;}
 
 body{}
 .default{margin:0 auto;width:960px;}
-#container{background:url("/images/large_bg.png") repeat-x scroll 0 0 #1a3367;overflow:hidden;}
-#inner_container{background:#F1EED8;max-width:960px;margin:-10px auto 0;}
-header{overflow:visible;position:relative;z-index:5;}
-header hgroup{margin:0 auto;max-width:960px;}
-header nav{min-height:35px;-moz-box-shadow:0 2px 5px #000000;-webkit-box-shadow:0 2px 5px #000;box-shadow:0 2px 5px #000;margin:0 0 10px 0;overflow:visible;background:url("/images/bg_nautical.png") repeat-x scroll 400px -78px transparent;border-color:tan;border-style:dotted;border-width:2px 0;}
-header nav a, header nav a:visited, header nav a:focus,header nav span{font-weight:bold;font-size:22px;font-style:normal;text-align:center;text-shadow:1px 1px tan;text-transform:uppercase;color:#143466;}
+#container{background:url("/images/bg_blue_speck.png") repeat-x scroll 0 0 #1a3367;overflow:hidden;}
+#inner_container{clear:both;position:relative;background:url("/images/bg_light_swatch.png") repeat #F1EED8;max-width:960px;margin:-20px auto 0;min-height:800px;}
+header{overflow:visible;position:relative;z-index:5;background:url("/images/bg_shadow_1.png") repeat-x 0 100% transparent;padding:0 0 8px;}
+header hgroup{margin:0 auto;max-width:960px;position:relative;z-index:5;}
+header nav{position:relative;z-index:5;min-height:38px;margin:0;overflow:visible;background:url("/images/bg_nautical.png") repeat-x scroll 400px -78px #F1EED8;border-color:tan;border-style:dotted;border-width:2px 0;}
+header nav a, header nav a:visited, header nav a:focus,header nav span{font-weight:normal;font-size:18px;font-style:normal;text-align:center;text-shadow:1px 1px tan;text-transform:uppercase;color:#143466;}
 header nav a:hover{color:#BF1722;}
 header nav h1{display:none}
 header nav ul{margin:0 auto;width:970px;}
-header nav ul li{padding:5px 31px;position:relative;text-transform:uppercase;}
+header nav ul li{padding:8px 31px 5px;position:relative;text-transform:uppercase;}
+header nav ul li.right,header nav ul li.left{/*border:1px solid #143466;border-width:0 1px;*/}
+header nav ul li.first{border-right:0 none;}
+header nav ul li.last{border-left:0 none;}
 header nav ul li.left{float:left;}
 header nav ul li.right{float:right;}
 header nav ul li#nav_home{display:none;}
+header nav ul li.hasnested ul{top:0;left:5px;}
 header nav ul li a{text-decoration:none;}
 header nav ul li:hover ul li{display:block;}
-header nav ul li ul li{display:none;float:none}
-header nav ul ul{display:none;padding:10px 0;width:auto;position:absolute;background:#F1EED8;border:1px solid tan;width:237px;-moz-box-shadow:0 2px 5px #000000;-webkit-box-shadow:0 2px 5px #000;box-shadow:0 2px 5px #000;}
+header nav ul li ul li{display:none;float:none;clear:both;}
+header nav ul li ul li a{background:transparent!important;border:0 none!important;padding:0!important;font-size:18px;font-weight:normal;}
+header nav ul ul{display:none;margin:0;text-align:left;padding:10px 0;width:auto;position:absolute;top:30px;left:34px;background:url("/images/bg_light_swatch.png") repeat #F1EED8;border:1px solid tan;width:237px;-moz-box-shadow:0 2px 5px #000000;-webkit-box-shadow:0 2px 5px #000;box-shadow:0 2px 5px #000;}
 header nav ul ul ul{position:relative;background:transparent;border:0 none;width:auto;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
-header nav ul ul li a{color:#143466!important;}
+header nav ul ul li a{color:#143466!important;font-weight:normal!important;}
 header nav ul ul li a:hover{color:#BF1722!important;}
 #nav_fenders:hover ul,#nav_fenders:hover ul li,
 #nav_services:hover ul, #nav_services:hover ul li{display:block;}
-#inner_container hgroup h1.logo{position:relative;top:-38px;z-index:6;margin:0 auto -24px;padding:10px 0 0 0;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;padding:10px 10px 0;height:101px;width:115px;text-indent:-9999em;background-color:transparent;background-image:url("/images/viking_fender_large_logo.png");background-position:50% 50%;background-repeat:no-repeat;}
-body.home #inner_container hgroup h1.logo{height:132px;width:150px;}
-#inner_container hgroup h1.logo a{display:block;height:100%;width:100%;}
-#inner_container hgroup h2.subtext{display:none;}
-footer{clear:both;background:#F1EED8;text-align:center;color:#000;font-size:18px;margin:10px auto 0!important;}
+header nav a.top-level{/*-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;*/background:url("/images/nav_transparent_bg_70p.png") repeat 0 0;padding:0 5px;}
+#inner_container hgroup{position:relative;z-index:10;}
+header hgroup h1.logo{background-color: transparent;background-image: url("/images/viking_fender_large_logo.png");background-position: 50% 100%;background-repeat: no-repeat;height: 132px;left: 409px;margin: 0 auto -24px;padding: 10px 10px 0;position: absolute;text-indent: -9999em;top: -49px;width: 150px;z-index: 20;}
+header hgroup h1.logo a{display:block;height:100%;width:100%;position:relative;z-index:10;}
+header hgroup h2.subtext{display:none;}
+footer{clear:both;background:url("/images/bg_light_swatch.png") repeat #F1EED8;text-align:center;color:#000;font-size:18px;margin:10px auto 0!important;}
 footer section#footer_info{overflow:hidden;padding:10px 20px;}
 footer h1{color:#BF1722;}
 footer p{margin:0;}
@@ -71,19 +80,20 @@ body.press header nav ul li#nav_press a{font-weight:bold;color:#BF1722}
 body.flyer header nav ul li#nav_flyer a{font-weight:bold;color:#BF1722}
 body.catalog header nav ul li#nav_catalog a{font-weight:bold;color:#BF1722}
 body.contact header nav ul li#nav_contact a{font-weight:bold;color:#BF1722}
+body.about header nav ul li#nav_about a{font-weight:bold;color:#BF1722}
 
 /*home*/
 body.home header h1{/*-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;margin: 0 auto;height:352px;width:400px;text-indent:-9999em;background-color:transparent;background-image:url("/images/viking_fender_large_logo.png");background-position:50%;background-repeat:no-repeat;*/}
 div#main{}
 #main section{overflow:hidden}
-section#boats{}
-section#boats article{margin:0 auto;}
-section#boats .boat_icon{background:url("/images/tug_new.png") no-repeat scroll 0 58px transparent;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;float:left;margin:0px;width:25%;}
+section#boats{margin-top:-7px;position:relative;z-index:1;/*background:url("/images/bg_shadow_bottom_1.png") repeat-x 0 0 transparent;*/}
+section#boats article{margin:-51px auto 0;}
+section#boats .boat_icon{background:url("/images/tug_new.png") no-repeat scroll 0 58px transparent;float:left;margin:0px;width:25%;}
 body.version_2 section#boats .boat_icon{width:320px;}
-section#boats .boat_icon h1{background:none repeat scroll 0 0 #F2EED8;border-left:1px dotted tan;color:#BF1722;font-family:"Times New Roman";font-size:27px;line-height:1;font-weight:bold;padding:10px;text-shadow:1px 1px tan;text-transform:uppercase;}
-section#boats .boat_icon h1 span{font-size:14px;font-weight:normal;font-family:NegotiateFree,arial,sans-serif;color:#143466;display:block;}
-section#boats .boat_icon ul{padding:10px 10px 10px 25px;height:125px;min-height:125px;height:auto;margin:136px 0 0;background:#F1EED8;list-style-type:square;}
-body.version_2 section#boats .boat_icon ul{margin-top:181px;}
+section#boats .boat_icon h1{filter:Shadow(Color=#D2B48C, Direction=135, Strength=3);/*background:url("/images/bg_light_swatch.png") repeat #F1EED8;*/position:relative;top:58px;border-left:1px dotted tan;color:#BF1722;font-family:"Times New Roman";font-size:27px;line-height:1;font-weight:bold;padding:10px;text-shadow:1px 1px tan;text-transform:uppercase;}
+section#boats .boat_icon h1 span{font-size:14px;font-weight:normal;font-family:helvetica,arial,sans-serif;color:#143466;display:block;}
+section#boats .boat_icon ul{padding:10px 10px 10px 25px;height:125px;min-height:125px;height:auto;margin:136px 0 0;background:url("/images/bg_light_swatch.png") repeat #F1EED8;list-style-type:square;}
+body.version_2 section#boats .boat_icon ul{margin-top:171px;}
 section#boats .boat_icon ul li{font-size:13px;padding:3px 0;color:#143466;}
 section#boats #tug_icon{background:url("/images/home_icon_tug_left.jpg") no-repeat scroll 0 58px transparent;}
 body.version_2 section#boats #tug_icon{background:url("/images/home_icon_tug_left_large.jpg") no-repeat scroll 0 58px transparent;}
@@ -91,33 +101,23 @@ body.version_2 section#boats #tug_icon{background:url("/images/home_icon_tug_lef
 section#boats #utility_icon{background:url("/images/home_icon_utility.jpg") no-repeat scroll 0 58px transparent;}
 body.version_2 section#boats #utility_icon{background:url("/images/home_icon_utility_large.png") no-repeat scroll 0 58px transparent;}
 body.version_2 section#boats #utility_icon{display:none;}
-/*section#boats #utility_icon ul{background:moccasin;}*/
 section#boats #pier_icon{background:url("/images/home_icon_pier.jpg") no-repeat scroll 0 58px transparent;}
-body.version_2 section#boats #pier_icon{background:url("/images/home_icon_pier_large.png") no-repeat scroll 0 58px transparent;}
-/*section#boats #pier_icon ul{background:tan;}*/
+body.version_2 section#boats #pier_icon{background:url("/images/home_icon_pier_large.jpg") no-repeat scroll 0 58px transparent;}
 section#boats #yacht_icon{background:url("/images/home_icon_yacht.jpg") no-repeat scroll 0 58px transparent;}
-body.version_2 section#boats #yacht_icon{background:url("/images/home_icon_yacht_large.png") no-repeat scroll 0 58px transparent;}
-/*section#boats #yacht_icon ul{background:moccasin;}*/
-/*
-#tug,#yacht{margin:30px;width:441px;height:188px;float:left;text-align:center;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;}
-#tug h1, #yacht h1{height:100%;}
-#tug a, #yacht a{width:100%;height:1em;padding-top:193px;display:block;text-transform:uppercase;color:#000;font-weight:bold;font-size:2em}
-#tug a:hover, #yacht a:hover{color:#BF1722;}
-#tug{}
-#yacht{margin:30px 0 0 0;background:url("/images/yacht_new.png") transparent no-repeat 0 100%}
-*/
+body.version_2 section#boats #yacht_icon{background:url("/images/home_icon_yacht_large.jpg") no-repeat scroll 0 58px transparent;}
 section#home_copy{clear:both;border-color:tan;border-style:dotted;border-width:1px 0 1px;margin:0 auto 10px;}
 section#home_copy article{padding:20px;}
 section#home_copy h1{margin: 0 auto;height:352px;width:400px;text-indent:-9999em;background-color:transparent;background-image:url("/images/viking_fender_large_logo.png");background-position:50%;background-repeat:no-repeat;}
-section#home_copy h2{color: #BF1722;font-size:24px;font-style:normal;text-align:center;text-shadow:1px 1px tan;text-transform:uppercase;}
-
-/*
-section#home_copy div{width:49%;}
-section#home_copy .left{float:left;}
-section#home_copy .right{float:right;}
-section#home_copy p{font-size:1.4em;float:left;margin:0 1em 1em 0;}
-*/
-
+section#home_copy h2, body.home h2#slogan{color: #143466;font-size:24px;font-style:normal;text-align:center;text-shadow:1px 1px tan;text-transform:uppercase;}
+body.home h2#slogan{color:#BF1722;}
+#crossfade{position:relative;}
+#crossfade,#crossfade-placeholder{width:100%;height:400px;}
+/*#crossfade div.caption{font-weight:bold;position:absolute;top:330px;left:20px;color: #143466;color:#BF1722;font-size:28px;font-style:normal;text-align:center;text-shadow:1px 1px tan;text-transform:uppercase;font-family:helvetica,arial,sans-serif;}*/
+#crossfade div.caption{filter:Shadow(Color=#D2B48C, Direction=135, Strength=3);background:url("/images/nav_transparent_bg_50p.png") repeat transparent;padding:12px 0;
+color:#BF1722;font-size:28px;font-weight:bold;text-align:center;text-shadow:1px 1px 1px tan;text-transform:uppercase;font-family:"Times New Roman", serif;
+display:none;/*background:url('/images/crossfade_text_push.png') no-repeat 0 0 transparent;width:310px;height:122px;*/position:relative;bottom:52px;
+}
+#crossfade div.caption.alt{/*background-image:url('/images/crossfade_text_complete.png');*/}
 section#home_touts{}
 section#home_touts article{margin:0 auto;width:650px;}
 section#home_touts article article{width:300px;height:300px;background:#ccc;margin:10px;float:left;position:relative;}
@@ -147,19 +147,48 @@ section#home_touts article#contact_tout{margin-right:0;background:url(/images/bg
 
 
 /*fenders*/
-.js body.fenders div#main{position:relative;top:-87px;}
+.js body.fenders div#main{position:relative;top: 3px;}
 body.fenders{}
 body.fenders section#fender_type{padding:0;margin-top:0;}
 body.fenders section#fender_type div#fender_type_header{float:left;padding:24px;width:50%;}
-body.fenders section#fender_type h1{color:#BF1722;font-family:"Times New Roman";font-size:27px;line-height:1;font-weight:bold;padding:0;text-shadow:1px 1px tan;text-transform:uppercase;}
-body.fenders section#fender_type h1 span{font-size:14px;font-weight:normal;font-family:NegotiateFree,arial,sans-serif;color:#143466;display:block;}
+body.fenders section#fender_type div#fender_type_header h1{}
 body.fenders section#fender_type p#type_overview{}
+body.fenders section#fender_type h2{margin:24px 24px 0;float:right;color: #BF1722;font-family: "Times New Roman";font-size: 27px;font-weight: bold;line-height: 1;padding: 10px;text-shadow: 1px 1px tan;text-transform: uppercase;}
 .js body.fenders section#fender_type div#image_gallery{height:500px;width:100%;margin:0 auto;/*float:right;*/border:1px solid tan;background:#000;}
 .no-js body.fenders section#fender_type div#image_gallery{display:none;}
-body.fenders section#fender_type ul {float:left;list-style-type:square;margin:10px;padding:10px;}
+body.fenders section#fender_type ul {float:right;list-style-type:none;text-align:right;margin:0 24px 24px;padding:10px;}
 body.fenders section#fender_type ul li{margin:0 0 10px 0;}
 body.fenders section#fender_type ul article{/*float:left;width:36%;*/}
 .js body.fenders section#fender_type ul article aside{display:none;}
-body.fenders section#fender_type article h1 a{font-size:18px;font-weight:bold;color:#143466;font-family:NegotiateFree,arial,sans-serif;text-decoration:none;}
+body.fenders section#fender_type article h1 a{font-size:18px;font-weight:bold;color:#143466;font-family:helvetica,arial,sans-serif;text-decoration:none;}
 body.fenders section#fender_type article h1 a:hover{color:#BF1722}
 body.fenders section#fender_type p.description,body.fenders section#fender_type p#type_overview{font-size:14px;margin:1em 0;}
+
+/*services*/
+body.services #main{position:relative;top:3px;}
+body.services section#section_image{height:400px;background:#000;}
+body.services section#section_image img{display:block;height:100%;margin:0 auto;}
+body.services section#section_copy{padding:0 24px;}
+body.services section#section_copy h1, body.services section#section_copy h2{margin:24px 0 0 0;}
+body.services section#section_copy h2{color: #143466;font-family: helvetica,arial,sans-serif;font-size: 18px;font-weight: bold;text-decoration: none;}
+body.services section#section_copy ul{margin: 0;}
+body.services section#section_copy ul li{list-style:none;}
+
+/*about*/
+body.about #main{position:relative;top:3px;}
+body.about section#section_image{height:400px;background:#000;}
+body.about section#section_image img{display:block;height:100%;margin:0 auto;}
+body.about section#section_copy{padding:0 24px;}
+body.about section#section_copy h1{margin:24px 0 0 0;}
+body.about section#section_copy div{width:49%;}
+body.about section#section_copy div.left{float:left;}
+body.about section#section_copy div.right{float:right;}
+
+/*contact*/
+body.contact #main{position:relative;top:3px;}
+body.contact #map{width:100%;height:400px;}
+body.contact section#section_copy{padding:0 24px;}
+body.contact section#section_copy h1{margin:24px 0 0 0;}
+body.contact section#section_copy div{width:49%;}
+body.contact section#section_copy div.left{float:left;}
+body.contact section#section_copy div.right{float:right;}

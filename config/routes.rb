@@ -1,4 +1,8 @@
 Boilerplate::Application.routes.draw do |map|
+  resources :services
+
+  
+  get "/contact/" => "contact#index"
   get "/about/" => "about#index"
   
   match "fenders/bow" => "fenders#list_by_type", :defaults => { :fender_type => 'bow'}
@@ -13,7 +17,7 @@ Boilerplate::Application.routes.draw do |map|
   match "fenders/softlite" => "fenders#list_by_type", :defaults => { :fender_type => 'softlite'}
   match "fenders/extruded" => "fenders#list_by_type", :defaults => { :fender_type => 'extruded'}
   match "fenders/yacht" => "fenders#list_by_type", :defaults => { :fender_type => 'yacht'}
-  match "fenders/pushknee" => "fenders#list_by_type", :defaults => { :fender_type => 'pushknee'}
+  match "fenders/push-knee" => "fenders#list_by_type", :defaults => { :fender_type => 'pushknee'}
   
   resources :fenders
   

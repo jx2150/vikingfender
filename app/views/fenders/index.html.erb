@@ -30,14 +30,16 @@ $(function(){
 	<div id="image_gallery"></div>
 	<div id="fender_type_header">
 	<% if params[:action] == 'list_by_type' %>
-	    <h1><%= @fenders[0].fender_type %> <span>Fenders</span></h1>
+	    <h1 class="two-level"><%= @fenders[0].fender_type %> <span>Fenders</span></h1>
 		<p id="type_overview">
 			<%= @fenders[0].summary %>
 		</p>
 	<% else %>
-	    <h1>All Fenders</h1>
+	    <h1 class="two-level">All Fenders</h1>
 	<% end %>
 	</div>
+	
+	<h2>Find Your Fender:</h2>
 	
 	<ul>
 	<% @fenders.each do |fender| %>

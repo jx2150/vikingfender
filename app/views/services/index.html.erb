@@ -1,0 +1,28 @@
+<section id="section_image">
+	<img src="http://s3.amazonaws.com/media.vikingfender.com/photos/30/large/softlite_affixed_adhesive_fender_2.jpg?1290353494" alt="Viking Fender">
+</section>
+<section id="section_copy">
+	<h1 class="two-level">Services</h1>
+	<ul>
+	<% @services.each do |service| %>
+	    <li>
+			<article>
+				<h2><%= service.title %></h2>
+		    	<p><%= service.description %></p>
+			    <p><%= service.image %></p>
+			    <p>
+				<!--
+				<%= link_to 'Show', service %>|
+				-->
+			    <%= link_to 'Edit', edit_service_path(service) %>
+			    <!--
+				<%= link_to 'Destroy', service, :confirm => 'Are you sure?', :method => :delete %>
+				-->
+				</p>
+				
+			</article>
+		</li>
+	<% end %>
+</section>
+
+<%= link_to 'New Service', new_service_path %>

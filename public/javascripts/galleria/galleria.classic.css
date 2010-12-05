@@ -158,18 +158,18 @@
 .galleria-thumb-nav-right {
     cursor: pointer;
     display: none;
-    background-position: -495px 5px;
+    background-position: -495px 50%;
     position: absolute;
     left: 0;
     top: 0;
-    height: 40px;
+    height: 60px;
     width: 23px;
     z-index: 3;
     opacity: .8;
     filter: alpha(opacity=80);
 }
 .galleria-thumb-nav-right {
-    background-position: -578px 5px;
+    background-position: -578px 50%;
     border-right: none;
     right: 0;
     left: auto;
