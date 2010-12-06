@@ -21,6 +21,7 @@ $(document).ready(function(){
 				tuggy.replaceWith('<h1>Tug<span>fendering</span></h1>');
 			}
 		});
+		/*
 		$('body').prepend('<button id="toggle2">toggle feature</button>')
 		$('#toggle2').css({
 			'position': 'absolute',
@@ -36,6 +37,7 @@ $(document).ready(function(){
 				$('#crossfade').insertAfter('#boats');
 			}
 		});
+		*/
 	}
 	
 	
