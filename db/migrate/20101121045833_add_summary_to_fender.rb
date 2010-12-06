@@ -1,6 +1,6 @@
 class AddSummaryToFender < ActiveRecord::Migration
   def self.up
-    add_column :fenders, :summary, :string
+    add_column :fenders, :summary, :text
   end
 
   def self.down

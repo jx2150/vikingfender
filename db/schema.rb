@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101128230435) do
+ActiveRecord::Schema.define(:version => 20101128231503) do
 
   create_table "assets", :force => true do |t|
     t.integer  "fender_id"
@@ -23,18 +23,18 @@ ActiveRecord::Schema.define(:version => 20101128230435) do
 
   create_table "fenders", :force => true do |t|
     t.string   "fender_type"
-    t.string   "name"
-    t.string   "title"
+    t.text     "name"
+    t.text     "title"
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "summary"
+    t.text     "summary"
   end
 
   create_table "services", :force => true do |t|
-    t.string   "title"
-    t.string   "description"
-    t.string   "image"
+    t.text     "title"
+    t.text     "description"
+    t.text     "image"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

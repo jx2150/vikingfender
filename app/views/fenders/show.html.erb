@@ -29,9 +29,8 @@ $(function(){
 	<div id="fender_type_header">
 	    <h1 class="two-level"><%= @fender.name.gsub("Fenders","") %> <span>Fenders</span></h1>
 		<p id="type_overview">
-			<%= @fender.description %>
+			<%= @fender.description.html_safe %>
 		</p>
 	</div>
+	<%= link_to 'Edit', edit_fender_path(@fender) %>
 </section>
-
-<%= link_to 'Back', fenders_path %>

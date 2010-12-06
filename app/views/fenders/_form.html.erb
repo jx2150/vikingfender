@@ -29,7 +29,7 @@
   </div>
 
 	<div class="newPaperclipFiles">
-
+			<%= f.label 'Upload new images:' %><br />
 	        <%= f.fields_for :assets do |asset| %>
 
 	           <% if asset.object.new_record? %>
@@ -41,19 +41,21 @@
 	</div>
 
 	<div class="existingPaperclipFiles">
-
+		<%= f.label 'Current images:' %><br />
+		<ol>
 	     <% f.fields_for :assets do |asset| %>
 
 	          <% unless asset.object.new_record? %>
 
-	                <div class="thumbnail">
+	                <li class="thumbnail">
 	                        <%= link_to( image_tag(asset.object.photo.url(:thumb)), asset.object.photo.url(:original) ) %>
 	                        <%= asset.check_box :_destroy %>
-	                </div>
+	                </li>
 
 	          <% end %>        
 
 	     <% end %>
+		</ol>
 	</div>
 
 

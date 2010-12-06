@@ -82,9 +82,9 @@
 	              <li class="fenders yacht hasnested">
 	               <span>yacht fenders</span>
 	                <ul>
-	                  <li class="fenders yacht inflatable"><%= link_to "inflatable fenders", "/fenders/yacht-inflatable" %></li>
-	                  <li class="fenders yacht softlite"><%= link_to "softlite fenders", "/fenders/yacht-softlite" %></li>
-					  <li class="fenders yacht softlite-donut"><%= link_to "softlite donut fenders", "/fenders/yacht-softlite-donut" %></li>
+	                  <li class="fenders yacht inflatable"><%= link_to "inflatable fenders", "/fenders/yacht" %></li>
+	                  <li class="fenders yacht softlite"><%= link_to "softlite fenders", "/fenders/yacht" %></li>
+					  <li class="fenders yacht softlite-donut"><%= link_to "softlite donut fenders", "/fenders/yacht" %></li>
 	                </ul>
 	              </li>
 	            </ul>
@@ -147,6 +147,10 @@
   <%= javascript_include_tag 'galleria/galleria.classic' %>
   <%= javascript_include_tag 'jquery.cross-slide.min' %>
 
+  <!--[if IE]>
+  	<%= javascript_include_tag 'jquery.textshadow' %>
+  <![endif]-->
+  
   <% if content_for?(:js_to_load_b4_closing_body) %>
 	  <%= yield(:js_to_load_b4_closing_body) %>
   <% end %>
@@ -157,7 +161,6 @@
 		DD_belatedPNG.fix('.png_bg');
 	</script>
   <![endif]-->
-
 
   <!-- yui profiler and profileviewer - remove for production -->
   <%= javascript_include_tag 'profiling/yahoo-profiling.min.js' %>

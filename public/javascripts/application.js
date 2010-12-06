@@ -7,7 +7,7 @@ $(document).ready(function(){
 	 * temp toggle for presentation purposes
 	 */
 	if($('body').hasClass('home')){
-		$('body').prepend('<button id="toggle">toggle fender categories</button>')
+		$('body').prepend('<button id="toggle">toggle main categories</button>')
 		$('#toggle').css({
 			'position': 'absolute',
 			'top': '100px',

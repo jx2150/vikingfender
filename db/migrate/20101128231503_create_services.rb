@@ -1,9 +1,9 @@
 class CreateServices < ActiveRecord::Migration
   def self.up
     create_table :services do |t|
-      t.string :title
-      t.string :description
-      t.string :image
+      t.text :title
+      t.text :description
+      t.text :image
 
       t.timestamps
     end
